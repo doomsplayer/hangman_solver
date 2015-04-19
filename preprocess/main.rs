@@ -12,7 +12,7 @@ use std::io::Seek;
 use std::io::SeekFrom;
 
 fn main() {
-    doit("/home/wooya/Downloads/scrow/eng3").unwrap();
+    doit("/path/to/dict").unwrap();
 }
 
 fn doit(path: &str) -> Result<(), Box<Error>> {
