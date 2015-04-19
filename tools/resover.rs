@@ -14,8 +14,8 @@ Usage: hangman guess [-a <api-addr>] [-u <user-id>] -d <dict> [-j <num>]
        hangman continue <word> [-a <api-addr>] [-u <user-id>] -s <session_id> -d <dict> [-j <num>] -h <history>
 
 Options:
-       -a <api-addr>     Api address [default: https://strikingly-hangman.herokuapp.com/game/on].
-       -u <user-id>      User id [default: doomsplayer@gmail.com].
+       -a <api-addr>     Api address.
+       -u <user-id>      User id.
        -s <session-id>   Session id.
        -d <dict>         Path to dict file.
        -j <num>          Jump words whose length is less than <num> [default: 3]
