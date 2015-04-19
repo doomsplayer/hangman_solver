@@ -1,0 +1,38 @@
+[package]
+name = "hangman"
+version = "0.0.1"
+authors = ["Young Wu <doomsplayer@gmail.com>"]
+
+[dependencies]
+serde = "*"
+serde_macros = "*"
+hyper = "0.3.13"
+rand = "*"
+log = "*"
+env_logger = "*"
+time = "*"
+encoding = "*"
+docopt = "*"
+docopt_macros = "*"
+rustc-serialize = "*"
+num = "*"
+openssl = "*"
+
+[[example]]
+path = "preprocess/main.rs"
+name = "preprocess"
+
+[[example]]
+path = "tools/resover.rs"
+name = "resover"
+
+[[example]]
+path = "tools/guesser.rs"
+name = "guesser"
+
+[profile.release]
+opt-level = 3
+debug = false
+rpath = false
+lto = false
+debug-assertions = false

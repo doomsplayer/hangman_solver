@@ -1,0 +1,682 @@
+[2015-04-18][15:21:46][TRACE] inspect top iter: Some((0, 'a'))
+[2015-04-18][15:21:46][TRACE] inspect top iter: Some((1, 'p'))
+[2015-04-18][15:21:46][TRACE] inspect top iter: Some((2, 'p'))
+[2015-04-18][15:21:46][TRACE] inspect top iter: Some((3, 'l'))
+[2015-04-18][15:21:46][TRACE] inspect top iter: Some((4, 'i'))
+[2015-04-18][15:21:46][TRACE] inspect top iter: Some((5, 'c'))
+[2015-04-18][15:21:46][TRACE] inspect top iter: Some((6, 'a'))
+[2015-04-18][15:21:46][TRACE] inspect top iter: Some((7, 't'))
+[2015-04-18][15:21:46][TRACE] inspect top iter: Some((8, 'i'))
+[2015-04-18][15:21:46][TRACE] inspect top iter: Some((9, 'o'))
+[2015-04-18][15:21:46][TRACE] inspect top iter: Some((10, 'n'))
+[2015-04-18][15:21:46][TRACE] inspect top iter: Some((11, '/'))
+[2015-04-18][15:21:46][TRACE] inspect sub iter: Some((12, 'j'))
+[2015-04-18][15:21:46][TRACE] inspect sub iter: Some((13, 's'))
+[2015-04-18][15:21:46][TRACE] inspect sub iter: Some((14, 'o'))
+[2015-04-18][15:21:46][TRACE] inspect sub iter: Some((15, 'n'))
+[2015-04-18][15:21:46][TRACE] inspect sub iter: None
+[2015-04-18][15:21:46][TRACE] send Post Url { scheme: "https", scheme_data: Relative(RelativeSchemeData { username: "", password: None, host: Domain("strikingly-hangman.herokuapp.com"), port: None, default_port: Some(443), path: ["game", "on"] }), query: None, fragment: None }
+[2015-04-18][15:21:46][TRACE] host="strikingly-hangman.herokuapp.com"
+[2015-04-18][15:21:46][TRACE] port=443
+[2015-04-18][15:21:46][DEBUG] https scheme
+[2015-04-18][15:21:48][DEBUG] request line: Post "/game/on" Http11
+[2015-04-18][15:21:48][DEBUG] headers=Headers { Host: strikingly-hangman.herokuapp.com, Content-Length: 57, Content-Type: application/json, }
+[2015-04-18][15:21:48][TRACE] slicing (0, 449, 4096)
+[2015-04-18][15:21:48][TRACE] raw header: "Server"=[67, 111, 119, 98, 111, 121]
+[2015-04-18][15:21:48][TRACE] raw header: "Date"=[83, 97, 116, 44, 32, 49, 56, 32, 65, 112, 114, 32, 50, 48, 49, 53, 32, 48, 55, 58, 50, 50, 58, 48, 52, 32, 71, 77, 84]
+[2015-04-18][15:21:48][TRACE] raw header: "Connection"=[107, 101, 101, 112, 45, 97, 108, 105, 118, 101]
+[2015-04-18][15:21:48][TRACE] raw header: "X-Frame-Options"=[83, 65, 77, 69, 79, 82, 73, 71, 73, 78]
+[2015-04-18][15:21:48][TRACE] raw header: "X-Xss-Protection"=[49, 59, 32, 109, 111, 100, 101, 61, 98, 108, 111, 99, 107]
+[2015-04-18][15:21:48][TRACE] raw header: "X-Content-Type-Options"=[110, 111, 115, 110, 105, 102, 102]
+[2015-04-18][15:21:48][TRACE] raw header: "Content-Type"=[97, 112, 112, 108, 105, 99, 97, 116, 105, 111, 110, 47, 106, 115, 111, 110, 59, 32, 99, 104, 97, 114, 115, 101, 116, 61, 117, 116, 102, 45, 56]
+[2015-04-18][15:21:48][TRACE] raw header: "Etag"=[34, 99, 51, 98, 54, 56, 55, 57, 97, 57, 101, 97, 57, 102, 50, 48, 100, 57, 101, 55, 102, 56, 49, 50, 54, 49, 48, 102, 98, 97, 48, 55, 53, 34]
+[2015-04-18][15:21:48][TRACE] raw header: "Cache-Control"=[109, 97, 120, 45, 97, 103, 101, 61, 48, 44, 32, 112, 114, 105, 118, 97, 116, 101, 44, 32, 109, 117, 115, 116, 45, 114, 101, 118, 97, 108, 105, 100, 97, 116, 101]
+[2015-04-18][15:21:48][TRACE] raw header: "X-Request-Id"=[102, 52, 50, 56, 50, 101, 57, 48, 45, 57, 54, 53, 51, 45, 52, 55, 57, 51, 45, 57, 100, 101, 53, 45, 56, 52, 99, 57, 98, 102, 52, 100, 50, 100, 55, 51]
+[2015-04-18][15:21:48][TRACE] raw header: "X-Runtime"=[48, 46, 48, 50, 56, 51, 53, 53]
+[2015-04-18][15:21:48][TRACE] raw header: "Transfer-Encoding"=[99, 104, 117, 110, 107, 101, 100]
+[2015-04-18][15:21:48][TRACE] raw header: "Via"=[49, 46, 49, 32, 118, 101, 103, 117, 114]
+[2015-04-18][15:21:48][DEBUG] version=Http11, status=Ok
+[2015-04-18][15:21:48][DEBUG] headers=Headers { Content-Type: application/json; charset=utf-8, Transfer-Encoding: chunked, Server: Cowboy, X-Request-Id: f4282e90-9653-4793-9de5-84c9bf4d2d73, X-Frame-Options: SAMEORIGIN, Cache-Control: max-age=0, private, must-revalidate, X-Content-Type-Options: nosniff, X-Runtime: 0.028355, X-Xss-Protection: 1; mode=block, Connection: keep-alive, Date: Sat, 18 Apr 2015 07:22:04 GMT, Etag: "c3b6879a9ea9f20d9e7f812610fba075", Via: 1.1 vegur, }
+[2015-04-18][15:21:48][TRACE] chunk size=147
+[2015-04-18][15:21:48][TRACE] Chunked read, remaining=147
+[2015-04-18][15:21:48][TRACE] Chunked read, remaining=115
+[2015-04-18][15:21:48][TRACE] Chunked read, remaining=51
+[2015-04-18][15:21:48][TRACE] chunk size=0
+[2015-04-18][15:21:48][TRACE] Chunked read, remaining=0
+[2015-04-18][15:21:48][TRACE] end of chunked
+[2015-04-18][15:21:48][TRACE] inspect top iter: Some((0, 'a'))
+[2015-04-18][15:21:48][TRACE] inspect top iter: Some((1, 'p'))
+[2015-04-18][15:21:48][TRACE] inspect top iter: Some((2, 'p'))
+[2015-04-18][15:21:48][TRACE] inspect top iter: Some((3, 'l'))
+[2015-04-18][15:21:48][TRACE] inspect top iter: Some((4, 'i'))
+[2015-04-18][15:21:48][TRACE] inspect top iter: Some((5, 'c'))
+[2015-04-18][15:21:48][TRACE] inspect top iter: Some((6, 'a'))
+[2015-04-18][15:21:48][TRACE] inspect top iter: Some((7, 't'))
+[2015-04-18][15:21:48][TRACE] inspect top iter: Some((8, 'i'))
+[2015-04-18][15:21:48][TRACE] inspect top iter: Some((9, 'o'))
+[2015-04-18][15:21:48][TRACE] inspect top iter: Some((10, 'n'))
+[2015-04-18][15:21:48][TRACE] inspect top iter: Some((11, '/'))
+[2015-04-18][15:21:48][TRACE] inspect sub iter: Some((12, 'j'))
+[2015-04-18][15:21:48][TRACE] inspect sub iter: Some((13, 's'))
+[2015-04-18][15:21:48][TRACE] inspect sub iter: Some((14, 'o'))
+[2015-04-18][15:21:48][TRACE] inspect sub iter: Some((15, 'n'))
+[2015-04-18][15:21:48][TRACE] inspect sub iter: None
+[2015-04-18][15:21:48][TRACE] send Post Url { scheme: "https", scheme_data: Relative(RelativeSchemeData { username: "", password: None, host: Domain("strikingly-hangman.herokuapp.com"), port: None, default_port: Some(443), path: ["game", "on"] }), query: None, fragment: None }
+[2015-04-18][15:21:48][TRACE] host="strikingly-hangman.herokuapp.com"
+[2015-04-18][15:21:48][TRACE] port=443
+[2015-04-18][15:21:48][DEBUG] https scheme
+[2015-04-18][15:21:49][DEBUG] request line: Post "/game/on" Http11
+[2015-04-18][15:21:49][DEBUG] headers=Headers { Content-Type: application/json, Content-Length: 68, Host: strikingly-hangman.herokuapp.com, }
+[2015-04-18][15:21:50][TRACE] slicing (0, 578, 4096)
+[2015-04-18][15:21:50][TRACE] raw header: "Server"=[67, 111, 119, 98, 111, 121]
+[2015-04-18][15:21:50][TRACE] raw header: "Date"=[83, 97, 116, 44, 32, 49, 56, 32, 65, 112, 114, 32, 50, 48, 49, 53, 32, 48, 55, 58, 50, 50, 58, 48, 54, 32, 71, 77, 84]
+[2015-04-18][15:21:50][TRACE] raw header: "Connection"=[107, 101, 101, 112, 45, 97, 108, 105, 118, 101]
+[2015-04-18][15:21:50][TRACE] raw header: "X-Frame-Options"=[83, 65, 77, 69, 79, 82, 73, 71, 73, 78]
+[2015-04-18][15:21:50][TRACE] raw header: "X-Xss-Protection"=[49, 59, 32, 109, 111, 100, 101, 61, 98, 108, 111, 99, 107]
+[2015-04-18][15:21:50][TRACE] raw header: "X-Content-Type-Options"=[110, 111, 115, 110, 105, 102, 102]
+[2015-04-18][15:21:50][TRACE] raw header: "Content-Type"=[97, 112, 112, 108, 105, 99, 97, 116, 105, 111, 110, 47, 106, 115, 111, 110, 59, 32, 99, 104, 97, 114, 115, 101, 116, 61, 117, 116, 102, 45, 56]
+[2015-04-18][15:21:50][TRACE] raw header: "Etag"=[34, 54, 52, 100, 49, 48, 51, 48, 52, 49, 53, 57, 56, 54, 57, 97, 54, 57, 51, 99, 99, 55, 51, 97, 49, 48, 48, 99, 54, 50, 57, 52, 102, 34]
+[2015-04-18][15:21:50][TRACE] raw header: "Cache-Control"=[109, 97, 120, 45, 97, 103, 101, 61, 48, 44, 32, 112, 114, 105, 118, 97, 116, 101, 44, 32, 109, 117, 115, 116, 45, 114, 101, 118, 97, 108, 105, 100, 97, 116, 101]
+[2015-04-18][15:21:50][TRACE] raw header: "X-Request-Id"=[48, 51, 50, 97, 102, 102, 101, 56, 45, 100, 97, 102, 102, 45, 52, 100, 57, 54, 45, 98, 56, 101, 101, 45, 51, 98, 101, 50, 55, 50, 54, 98, 48, 50, 48, 57]
+[2015-04-18][15:21:50][TRACE] raw header: "X-Runtime"=[48, 46, 48, 54, 53, 48, 48, 52]
+[2015-04-18][15:21:50][TRACE] raw header: "Transfer-Encoding"=[99, 104, 117, 110, 107, 101, 100]
+[2015-04-18][15:21:50][TRACE] raw header: "Via"=[49, 46, 49, 32, 118, 101, 103, 117, 114]
+[2015-04-18][15:21:50][DEBUG] version=Http11, status=Ok
+[2015-04-18][15:21:50][DEBUG] headers=Headers { Transfer-Encoding: chunked, X-Content-Type-Options: nosniff, X-Request-Id: 032affe8-daff-4d96-b8ee-3be2726b0209, X-Frame-Options: SAMEORIGIN, X-Xss-Protection: 1; mode=block, X-Runtime: 0.065004, Server: Cowboy, Etag: "64d10304159869a693cc73a100c6294f", Content-Type: application/json; charset=utf-8, Via: 1.1 vegur, Connection: keep-alive, Date: Sat, 18 Apr 2015 07:22:06 GMT, Cache-Control: max-age=0, private, must-revalidate, }
+[2015-04-18][15:21:50][TRACE] chunk size=123
+[2015-04-18][15:21:50][TRACE] Chunked read, remaining=123
+[2015-04-18][15:21:50][TRACE] Chunked read, remaining=91
+[2015-04-18][15:21:50][TRACE] Chunked read, remaining=27
+[2015-04-18][15:21:50][TRACE] chunk size=0
+[2015-04-18][15:21:50][TRACE] Chunked read, remaining=0
+[2015-04-18][15:21:50][TRACE] end of chunked
+[2015-04-18][15:21:50][TRACE] inspect top iter: Some((0, 'a'))
+[2015-04-18][15:21:50][TRACE] inspect top iter: Some((1, 'p'))
+[2015-04-18][15:21:50][TRACE] inspect top iter: Some((2, 'p'))
+[2015-04-18][15:21:50][TRACE] inspect top iter: Some((3, 'l'))
+[2015-04-18][15:21:50][TRACE] inspect top iter: Some((4, 'i'))
+[2015-04-18][15:21:50][TRACE] inspect top iter: Some((5, 'c'))
+[2015-04-18][15:21:50][TRACE] inspect top iter: Some((6, 'a'))
+[2015-04-18][15:21:50][TRACE] inspect top iter: Some((7, 't'))
+[2015-04-18][15:21:50][TRACE] inspect top iter: Some((8, 'i'))
+[2015-04-18][15:21:50][TRACE] inspect top iter: Some((9, 'o'))
+[2015-04-18][15:21:50][TRACE] inspect top iter: Some((10, 'n'))
+[2015-04-18][15:21:50][TRACE] inspect top iter: Some((11, '/'))
+[2015-04-18][15:21:50][TRACE] inspect sub iter: Some((12, 'j'))
+[2015-04-18][15:21:50][TRACE] inspect sub iter: Some((13, 's'))
+[2015-04-18][15:21:50][TRACE] inspect sub iter: Some((14, 'o'))
+[2015-04-18][15:21:50][TRACE] inspect sub iter: Some((15, 'n'))
+[2015-04-18][15:21:50][TRACE] inspect sub iter: None
+[2015-04-18][15:21:50][TRACE] send Post Url { scheme: "https", scheme_data: Relative(RelativeSchemeData { username: "", password: None, host: Domain("strikingly-hangman.herokuapp.com"), port: None, default_port: Some(443), path: ["game", "on"] }), query: None, fragment: None }
+[2015-04-18][15:21:50][TRACE] host="strikingly-hangman.herokuapp.com"
+[2015-04-18][15:21:50][TRACE] port=443
+[2015-04-18][15:21:50][DEBUG] https scheme
+[2015-04-18][15:21:51][DEBUG] request line: Post "/game/on" Http11
+[2015-04-18][15:21:51][DEBUG] headers=Headers { Host: strikingly-hangman.herokuapp.com, Content-Type: application/json, Content-Length: 81, }
+[2015-04-18][15:21:52][TRACE] slicing (0, 583, 4096)
+[2015-04-18][15:21:52][TRACE] raw header: "Server"=[67, 111, 119, 98, 111, 121]
+[2015-04-18][15:21:52][TRACE] raw header: "Date"=[83, 97, 116, 44, 32, 49, 56, 32, 65, 112, 114, 32, 50, 48, 49, 53, 32, 48, 55, 58, 50, 50, 58, 48, 55, 32, 71, 77, 84]
+[2015-04-18][15:21:52][TRACE] raw header: "Connection"=[107, 101, 101, 112, 45, 97, 108, 105, 118, 101]
+[2015-04-18][15:21:52][TRACE] raw header: "X-Frame-Options"=[83, 65, 77, 69, 79, 82, 73, 71, 73, 78]
+[2015-04-18][15:21:52][TRACE] raw header: "X-Xss-Protection"=[49, 59, 32, 109, 111, 100, 101, 61, 98, 108, 111, 99, 107]
+[2015-04-18][15:21:52][TRACE] raw header: "X-Content-Type-Options"=[110, 111, 115, 110, 105, 102, 102]
+[2015-04-18][15:21:52][TRACE] raw header: "Content-Type"=[97, 112, 112, 108, 105, 99, 97, 116, 105, 111, 110, 47, 106, 115, 111, 110, 59, 32, 99, 104, 97, 114, 115, 101, 116, 61, 117, 116, 102, 45, 56]
+[2015-04-18][15:21:52][TRACE] raw header: "Etag"=[34, 100, 102, 102, 49, 99, 98, 54, 56, 56, 56, 50, 102, 52, 100, 98, 98, 57, 97, 53, 56, 52, 50, 52, 57, 50, 52, 102, 51, 56, 57, 50, 53, 34]
+[2015-04-18][15:21:52][TRACE] raw header: "Cache-Control"=[109, 97, 120, 45, 97, 103, 101, 61, 48, 44, 32, 112, 114, 105, 118, 97, 116, 101, 44, 32, 109, 117, 115, 116, 45, 114, 101, 118, 97, 108, 105, 100, 97, 116, 101]
+[2015-04-18][15:21:52][TRACE] raw header: "X-Request-Id"=[49, 56, 49, 55, 50, 52, 54, 53, 45, 52, 53, 48, 101, 45, 52, 98, 50, 50, 45, 97, 48, 97, 97, 45, 98, 100, 56, 99, 53, 49, 99, 52, 52, 98, 53, 53]
+[2015-04-18][15:21:52][TRACE] raw header: "X-Runtime"=[48, 46, 48, 51, 56, 49, 55, 55]
+[2015-04-18][15:21:52][TRACE] raw header: "Transfer-Encoding"=[99, 104, 117, 110, 107, 101, 100]
+[2015-04-18][15:21:52][TRACE] raw header: "Via"=[49, 46, 49, 32, 118, 101, 103, 117, 114]
+[2015-04-18][15:21:52][DEBUG] version=Http11, status=Ok
+[2015-04-18][15:21:52][DEBUG] headers=Headers { X-Runtime: 0.038177, X-Request-Id: 18172465-450e-4b22-a0aa-bd8c51c44b55, X-Content-Type-Options: nosniff, X-Frame-Options: SAMEORIGIN, Server: Cowboy, X-Xss-Protection: 1; mode=block, Content-Type: application/json; charset=utf-8, Cache-Control: max-age=0, private, must-revalidate, Via: 1.1 vegur, Etag: "dff1cb68882f4dbb9a58424924f38925", Connection: keep-alive, Transfer-Encoding: chunked, Date: Sat, 18 Apr 2015 07:22:07 GMT, }
+[2015-04-18][15:21:52][TRACE] chunk size=123
+[2015-04-18][15:21:52][TRACE] Chunked read, remaining=123
+[2015-04-18][15:21:52][TRACE] Chunked read, remaining=91
+[2015-04-18][15:21:52][TRACE] Chunked read, remaining=27
+[2015-04-18][15:21:52][TRACE] chunk size=0
+[2015-04-18][15:21:52][TRACE] Chunked read, remaining=0
+[2015-04-18][15:21:52][TRACE] end of chunked
+[2015-04-18][15:21:52][TRACE] inspect top iter: Some((0, 'a'))
+[2015-04-18][15:21:52][TRACE] inspect top iter: Some((1, 'p'))
+[2015-04-18][15:21:52][TRACE] inspect top iter: Some((2, 'p'))
+[2015-04-18][15:21:52][TRACE] inspect top iter: Some((3, 'l'))
+[2015-04-18][15:21:52][TRACE] inspect top iter: Some((4, 'i'))
+[2015-04-18][15:21:52][TRACE] inspect top iter: Some((5, 'c'))
+[2015-04-18][15:21:52][TRACE] inspect top iter: Some((6, 'a'))
+[2015-04-18][15:21:52][TRACE] inspect top iter: Some((7, 't'))
+[2015-04-18][15:21:52][TRACE] inspect top iter: Some((8, 'i'))
+[2015-04-18][15:21:52][TRACE] inspect top iter: Some((9, 'o'))
+[2015-04-18][15:21:52][TRACE] inspect top iter: Some((10, 'n'))
+[2015-04-18][15:21:52][TRACE] inspect top iter: Some((11, '/'))
+[2015-04-18][15:21:52][TRACE] inspect sub iter: Some((12, 'j'))
+[2015-04-18][15:21:52][TRACE] inspect sub iter: Some((13, 's'))
+[2015-04-18][15:21:52][TRACE] inspect sub iter: Some((14, 'o'))
+[2015-04-18][15:21:52][TRACE] inspect sub iter: Some((15, 'n'))
+[2015-04-18][15:21:52][TRACE] inspect sub iter: None
+[2015-04-18][15:21:52][TRACE] send Post Url { scheme: "https", scheme_data: Relative(RelativeSchemeData { username: "", password: None, host: Domain("strikingly-hangman.herokuapp.com"), port: None, default_port: Some(443), path: ["game", "on"] }), query: None, fragment: None }
+[2015-04-18][15:21:52][TRACE] host="strikingly-hangman.herokuapp.com"
+[2015-04-18][15:21:52][TRACE] port=443
+[2015-04-18][15:21:52][DEBUG] https scheme
+[2015-04-18][15:21:53][DEBUG] request line: Post "/game/on" Http11
+[2015-04-18][15:21:53][DEBUG] headers=Headers { Host: strikingly-hangman.herokuapp.com, Content-Type: application/json, Content-Length: 81, }
+[2015-04-18][15:21:53][TRACE] slicing (0, 449, 4096)
+[2015-04-18][15:21:53][TRACE] raw header: "Server"=[67, 111, 119, 98, 111, 121]
+[2015-04-18][15:21:53][TRACE] raw header: "Date"=[83, 97, 116, 44, 32, 49, 56, 32, 65, 112, 114, 32, 50, 48, 49, 53, 32, 48, 55, 58, 50, 50, 58, 48, 57, 32, 71, 77, 84]
+[2015-04-18][15:21:53][TRACE] raw header: "Connection"=[107, 101, 101, 112, 45, 97, 108, 105, 118, 101]
+[2015-04-18][15:21:53][TRACE] raw header: "X-Frame-Options"=[83, 65, 77, 69, 79, 82, 73, 71, 73, 78]
+[2015-04-18][15:21:53][TRACE] raw header: "X-Xss-Protection"=[49, 59, 32, 109, 111, 100, 101, 61, 98, 108, 111, 99, 107]
+[2015-04-18][15:21:53][TRACE] raw header: "X-Content-Type-Options"=[110, 111, 115, 110, 105, 102, 102]
+[2015-04-18][15:21:53][TRACE] raw header: "Content-Type"=[97, 112, 112, 108, 105, 99, 97, 116, 105, 111, 110, 47, 106, 115, 111, 110, 59, 32, 99, 104, 97, 114, 115, 101, 116, 61, 117, 116, 102, 45, 56]
+[2015-04-18][15:21:53][TRACE] raw header: "Etag"=[34, 102, 50, 102, 48, 97, 55, 54, 101, 100, 57, 49, 102, 102, 50, 99, 49, 98, 100, 52, 99, 49, 52, 51, 98, 102, 100, 57, 99, 52, 55, 50, 54, 34]
+[2015-04-18][15:21:53][TRACE] raw header: "Cache-Control"=[109, 97, 120, 45, 97, 103, 101, 61, 48, 44, 32, 112, 114, 105, 118, 97, 116, 101, 44, 32, 109, 117, 115, 116, 45, 114, 101, 118, 97, 108, 105, 100, 97, 116, 101]
+[2015-04-18][15:21:53][TRACE] raw header: "X-Request-Id"=[51, 54, 100, 52, 55, 52, 53, 102, 45, 98, 102, 98, 52, 45, 52, 57, 56, 99, 45, 56, 56, 100, 100, 45, 55, 56, 101, 50, 49, 101, 53, 99, 55, 50, 48, 98]
+[2015-04-18][15:21:53][TRACE] raw header: "X-Runtime"=[48, 46, 48, 50, 56, 48, 49, 49]
+[2015-04-18][15:21:53][TRACE] raw header: "Transfer-Encoding"=[99, 104, 117, 110, 107, 101, 100]
+[2015-04-18][15:21:53][TRACE] raw header: "Via"=[49, 46, 49, 32, 118, 101, 103, 117, 114]
+[2015-04-18][15:21:53][DEBUG] version=Http11, status=Ok
+[2015-04-18][15:21:53][DEBUG] headers=Headers { Cache-Control: max-age=0, private, must-revalidate, X-Request-Id: 36d4745f-bfb4-498c-88dd-78e21e5c720b, Date: Sat, 18 Apr 2015 07:22:09 GMT, Via: 1.1 vegur, X-Runtime: 0.028011, X-Content-Type-Options: nosniff, X-Frame-Options: SAMEORIGIN, Content-Type: application/json; charset=utf-8, Etag: "f2f0a76ed91ff2c1bd4c143bfd9c4726", Server: Cowboy, Transfer-Encoding: chunked, Connection: keep-alive, X-Xss-Protection: 1; mode=block, }
+[2015-04-18][15:21:53][TRACE] chunk size=123
+[2015-04-18][15:21:53][TRACE] Chunked read, remaining=123
+[2015-04-18][15:21:53][TRACE] Chunked read, remaining=91
+[2015-04-18][15:21:53][TRACE] Chunked read, remaining=27
+[2015-04-18][15:21:53][TRACE] chunk size=0
+[2015-04-18][15:21:53][TRACE] Chunked read, remaining=0
+[2015-04-18][15:21:53][TRACE] end of chunked
+[2015-04-18][15:21:53][TRACE] inspect top iter: Some((0, 'a'))
+[2015-04-18][15:21:53][TRACE] inspect top iter: Some((1, 'p'))
+[2015-04-18][15:21:53][TRACE] inspect top iter: Some((2, 'p'))
+[2015-04-18][15:21:53][TRACE] inspect top iter: Some((3, 'l'))
+[2015-04-18][15:21:53][TRACE] inspect top iter: Some((4, 'i'))
+[2015-04-18][15:21:53][TRACE] inspect top iter: Some((5, 'c'))
+[2015-04-18][15:21:53][TRACE] inspect top iter: Some((6, 'a'))
+[2015-04-18][15:21:53][TRACE] inspect top iter: Some((7, 't'))
+[2015-04-18][15:21:53][TRACE] inspect top iter: Some((8, 'i'))
+[2015-04-18][15:21:53][TRACE] inspect top iter: Some((9, 'o'))
+[2015-04-18][15:21:53][TRACE] inspect top iter: Some((10, 'n'))
+[2015-04-18][15:21:53][TRACE] inspect top iter: Some((11, '/'))
+[2015-04-18][15:21:53][TRACE] inspect sub iter: Some((12, 'j'))
+[2015-04-18][15:21:53][TRACE] inspect sub iter: Some((13, 's'))
+[2015-04-18][15:21:53][TRACE] inspect sub iter: Some((14, 'o'))
+[2015-04-18][15:21:53][TRACE] inspect sub iter: Some((15, 'n'))
+[2015-04-18][15:21:53][TRACE] inspect sub iter: None
+[2015-04-18][15:21:53][TRACE] send Post Url { scheme: "https", scheme_data: Relative(RelativeSchemeData { username: "", password: None, host: Domain("strikingly-hangman.herokuapp.com"), port: None, default_port: Some(443), path: ["game", "on"] }), query: None, fragment: None }
+[2015-04-18][15:21:53][TRACE] host="strikingly-hangman.herokuapp.com"
+[2015-04-18][15:21:53][TRACE] port=443
+[2015-04-18][15:21:53][DEBUG] https scheme
+[2015-04-18][15:21:55][DEBUG] request line: Post "/game/on" Http11
+[2015-04-18][15:21:55][DEBUG] headers=Headers { Host: strikingly-hangman.herokuapp.com, Content-Type: application/json, Content-Length: 81, }
+[2015-04-18][15:21:55][TRACE] slicing (0, 449, 4096)
+[2015-04-18][15:21:55][TRACE] raw header: "Server"=[67, 111, 119, 98, 111, 121]
+[2015-04-18][15:21:55][TRACE] raw header: "Date"=[83, 97, 116, 44, 32, 49, 56, 32, 65, 112, 114, 32, 50, 48, 49, 53, 32, 48, 55, 58, 50, 50, 58, 49, 49, 32, 71, 77, 84]
+[2015-04-18][15:21:55][TRACE] raw header: "Connection"=[107, 101, 101, 112, 45, 97, 108, 105, 118, 101]
+[2015-04-18][15:21:55][TRACE] raw header: "X-Frame-Options"=[83, 65, 77, 69, 79, 82, 73, 71, 73, 78]
+[2015-04-18][15:21:55][TRACE] raw header: "X-Xss-Protection"=[49, 59, 32, 109, 111, 100, 101, 61, 98, 108, 111, 99, 107]
+[2015-04-18][15:21:55][TRACE] raw header: "X-Content-Type-Options"=[110, 111, 115, 110, 105, 102, 102]
+[2015-04-18][15:21:55][TRACE] raw header: "Content-Type"=[97, 112, 112, 108, 105, 99, 97, 116, 105, 111, 110, 47, 106, 115, 111, 110, 59, 32, 99, 104, 97, 114, 115, 101, 116, 61, 117, 116, 102, 45, 56]
+[2015-04-18][15:21:55][TRACE] raw header: "Etag"=[34, 102, 52, 101, 100, 57, 54, 54, 55, 54, 56, 101, 98, 100, 98, 98, 50, 98, 52, 51, 48, 56, 55, 56, 48, 102, 57, 100, 50, 99, 56, 49, 49, 34]
+[2015-04-18][15:21:55][TRACE] raw header: "Cache-Control"=[109, 97, 120, 45, 97, 103, 101, 61, 48, 44, 32, 112, 114, 105, 118, 97, 116, 101, 44, 32, 109, 117, 115, 116, 45, 114, 101, 118, 97, 108, 105, 100, 97, 116, 101]
+[2015-04-18][15:21:55][TRACE] raw header: "X-Request-Id"=[100, 101, 101, 97, 49, 50, 49, 101, 45, 49, 50, 102, 100, 45, 52, 48, 98, 101, 45, 57, 101, 99, 53, 45, 100, 50, 56, 99, 51, 52, 100, 50, 99, 54, 51, 102]
+[2015-04-18][15:21:55][TRACE] raw header: "X-Runtime"=[48, 46, 48, 50, 57, 50, 54, 52]
+[2015-04-18][15:21:55][TRACE] raw header: "Transfer-Encoding"=[99, 104, 117, 110, 107, 101, 100]
+[2015-04-18][15:21:55][TRACE] raw header: "Via"=[49, 46, 49, 32, 118, 101, 103, 117, 114]
+[2015-04-18][15:21:55][DEBUG] version=Http11, status=Ok
+[2015-04-18][15:21:55][DEBUG] headers=Headers { Date: Sat, 18 Apr 2015 07:22:11 GMT, Cache-Control: max-age=0, private, must-revalidate, X-Runtime: 0.029264, X-Content-Type-Options: nosniff, Transfer-Encoding: chunked, Via: 1.1 vegur, Etag: "f4ed966768ebdbb2b4308780f9d2c811", Content-Type: application/json; charset=utf-8, X-Request-Id: deea121e-12fd-40be-9ec5-d28c34d2c63f, Connection: keep-alive, Server: Cowboy, X-Xss-Protection: 1; mode=block, X-Frame-Options: SAMEORIGIN, }
+[2015-04-18][15:21:55][TRACE] chunk size=123
+[2015-04-18][15:21:55][TRACE] Chunked read, remaining=123
+[2015-04-18][15:21:55][TRACE] Chunked read, remaining=91
+[2015-04-18][15:21:55][TRACE] Chunked read, remaining=27
+[2015-04-18][15:21:55][TRACE] chunk size=0
+[2015-04-18][15:21:55][TRACE] Chunked read, remaining=0
+[2015-04-18][15:21:55][TRACE] end of chunked
+[2015-04-18][15:21:55][TRACE] inspect top iter: Some((0, 'a'))
+[2015-04-18][15:21:55][TRACE] inspect top iter: Some((1, 'p'))
+[2015-04-18][15:21:55][TRACE] inspect top iter: Some((2, 'p'))
+[2015-04-18][15:21:55][TRACE] inspect top iter: Some((3, 'l'))
+[2015-04-18][15:21:55][TRACE] inspect top iter: Some((4, 'i'))
+[2015-04-18][15:21:55][TRACE] inspect top iter: Some((5, 'c'))
+[2015-04-18][15:21:55][TRACE] inspect top iter: Some((6, 'a'))
+[2015-04-18][15:21:55][TRACE] inspect top iter: Some((7, 't'))
+[2015-04-18][15:21:55][TRACE] inspect top iter: Some((8, 'i'))
+[2015-04-18][15:21:55][TRACE] inspect top iter: Some((9, 'o'))
+[2015-04-18][15:21:55][TRACE] inspect top iter: Some((10, 'n'))
+[2015-04-18][15:21:55][TRACE] inspect top iter: Some((11, '/'))
+[2015-04-18][15:21:55][TRACE] inspect sub iter: Some((12, 'j'))
+[2015-04-18][15:21:55][TRACE] inspect sub iter: Some((13, 's'))
+[2015-04-18][15:21:55][TRACE] inspect sub iter: Some((14, 'o'))
+[2015-04-18][15:21:55][TRACE] inspect sub iter: Some((15, 'n'))
+[2015-04-18][15:21:55][TRACE] inspect sub iter: None
+[2015-04-18][15:21:55][TRACE] send Post Url { scheme: "https", scheme_data: Relative(RelativeSchemeData { username: "", password: None, host: Domain("strikingly-hangman.herokuapp.com"), port: None, default_port: Some(443), path: ["game", "on"] }), query: None, fragment: None }
+[2015-04-18][15:21:55][TRACE] host="strikingly-hangman.herokuapp.com"
+[2015-04-18][15:21:55][TRACE] port=443
+[2015-04-18][15:21:55][DEBUG] https scheme
+[2015-04-18][15:21:56][DEBUG] request line: Post "/game/on" Http11
+[2015-04-18][15:21:56][DEBUG] headers=Headers { Content-Length: 81, Content-Type: application/json, Host: strikingly-hangman.herokuapp.com, }
+[2015-04-18][15:21:57][TRACE] slicing (0, 449, 4096)
+[2015-04-18][15:21:57][TRACE] raw header: "Server"=[67, 111, 119, 98, 111, 121]
+[2015-04-18][15:21:57][TRACE] raw header: "Date"=[83, 97, 116, 44, 32, 49, 56, 32, 65, 112, 114, 32, 50, 48, 49, 53, 32, 48, 55, 58, 50, 50, 58, 49, 51, 32, 71, 77, 84]
+[2015-04-18][15:21:57][TRACE] raw header: "Connection"=[107, 101, 101, 112, 45, 97, 108, 105, 118, 101]
+[2015-04-18][15:21:57][TRACE] raw header: "X-Frame-Options"=[83, 65, 77, 69, 79, 82, 73, 71, 73, 78]
+[2015-04-18][15:21:57][TRACE] raw header: "X-Xss-Protection"=[49, 59, 32, 109, 111, 100, 101, 61, 98, 108, 111, 99, 107]
+[2015-04-18][15:21:57][TRACE] raw header: "X-Content-Type-Options"=[110, 111, 115, 110, 105, 102, 102]
+[2015-04-18][15:21:57][TRACE] raw header: "Content-Type"=[97, 112, 112, 108, 105, 99, 97, 116, 105, 111, 110, 47, 106, 115, 111, 110, 59, 32, 99, 104, 97, 114, 115, 101, 116, 61, 117, 116, 102, 45, 56]
+[2015-04-18][15:21:57][TRACE] raw header: "Etag"=[34, 97, 53, 98, 50, 101, 57, 52, 56, 99, 97, 49, 55, 98, 97, 99, 98, 56, 48, 56, 49, 99, 49, 48, 54, 50, 100, 56, 101, 101, 100, 50, 99, 34]
+[2015-04-18][15:21:57][TRACE] raw header: "Cache-Control"=[109, 97, 120, 45, 97, 103, 101, 61, 48, 44, 32, 112, 114, 105, 118, 97, 116, 101, 44, 32, 109, 117, 115, 116, 45, 114, 101, 118, 97, 108, 105, 100, 97, 116, 101]
+[2015-04-18][15:21:57][TRACE] raw header: "X-Request-Id"=[57, 55, 55, 99, 56, 99, 49, 52, 45, 101, 100, 48, 101, 45, 52, 48, 52, 55, 45, 97, 53, 56, 101, 45, 97, 53, 100, 49, 53, 55, 51, 56, 52, 102, 52, 99]
+[2015-04-18][15:21:57][TRACE] raw header: "X-Runtime"=[48, 46, 48, 50, 56, 50, 48, 54]
+[2015-04-18][15:21:57][TRACE] raw header: "Transfer-Encoding"=[99, 104, 117, 110, 107, 101, 100]
+[2015-04-18][15:21:57][TRACE] raw header: "Via"=[49, 46, 49, 32, 118, 101, 103, 117, 114]
+[2015-04-18][15:21:57][DEBUG] version=Http11, status=Ok
+[2015-04-18][15:21:57][DEBUG] headers=Headers { X-Content-Type-Options: nosniff, Server: Cowboy, Etag: "a5b2e948ca17bacb8081c1062d8eed2c", Date: Sat, 18 Apr 2015 07:22:13 GMT, Transfer-Encoding: chunked, X-Frame-Options: SAMEORIGIN, X-Runtime: 0.028206, Via: 1.1 vegur, Cache-Control: max-age=0, private, must-revalidate, X-Request-Id: 977c8c14-ed0e-4047-a58e-a5d157384f4c, Content-Type: application/json; charset=utf-8, Connection: keep-alive, X-Xss-Protection: 1; mode=block, }
+[2015-04-18][15:21:57][TRACE] chunk size=123
+[2015-04-18][15:21:57][TRACE] Chunked read, remaining=123
+[2015-04-18][15:21:57][TRACE] Chunked read, remaining=91
+[2015-04-18][15:21:57][TRACE] Chunked read, remaining=27
+[2015-04-18][15:21:57][TRACE] chunk size=0
+[2015-04-18][15:21:57][TRACE] Chunked read, remaining=0
+[2015-04-18][15:21:57][TRACE] end of chunked
+[2015-04-18][15:21:57][TRACE] inspect top iter: Some((0, 'a'))
+[2015-04-18][15:21:57][TRACE] inspect top iter: Some((1, 'p'))
+[2015-04-18][15:21:57][TRACE] inspect top iter: Some((2, 'p'))
+[2015-04-18][15:21:57][TRACE] inspect top iter: Some((3, 'l'))
+[2015-04-18][15:21:57][TRACE] inspect top iter: Some((4, 'i'))
+[2015-04-18][15:21:57][TRACE] inspect top iter: Some((5, 'c'))
+[2015-04-18][15:21:57][TRACE] inspect top iter: Some((6, 'a'))
+[2015-04-18][15:21:57][TRACE] inspect top iter: Some((7, 't'))
+[2015-04-18][15:21:57][TRACE] inspect top iter: Some((8, 'i'))
+[2015-04-18][15:21:57][TRACE] inspect top iter: Some((9, 'o'))
+[2015-04-18][15:21:57][TRACE] inspect top iter: Some((10, 'n'))
+[2015-04-18][15:21:57][TRACE] inspect top iter: Some((11, '/'))
+[2015-04-18][15:21:57][TRACE] inspect sub iter: Some((12, 'j'))
+[2015-04-18][15:21:57][TRACE] inspect sub iter: Some((13, 's'))
+[2015-04-18][15:21:57][TRACE] inspect sub iter: Some((14, 'o'))
+[2015-04-18][15:21:57][TRACE] inspect sub iter: Some((15, 'n'))
+[2015-04-18][15:21:57][TRACE] inspect sub iter: None
+[2015-04-18][15:21:57][TRACE] send Post Url { scheme: "https", scheme_data: Relative(RelativeSchemeData { username: "", password: None, host: Domain("strikingly-hangman.herokuapp.com"), port: None, default_port: Some(443), path: ["game", "on"] }), query: None, fragment: None }
+[2015-04-18][15:21:57][TRACE] host="strikingly-hangman.herokuapp.com"
+[2015-04-18][15:21:57][TRACE] port=443
+[2015-04-18][15:21:57][DEBUG] https scheme
+[2015-04-18][15:21:58][DEBUG] request line: Post "/game/on" Http11
+[2015-04-18][15:21:58][DEBUG] headers=Headers { Host: strikingly-hangman.herokuapp.com, Content-Type: application/json, Content-Length: 81, }
+[2015-04-18][15:21:59][TRACE] slicing (0, 449, 4096)
+[2015-04-18][15:21:59][TRACE] raw header: "Server"=[67, 111, 119, 98, 111, 121]
+[2015-04-18][15:21:59][TRACE] raw header: "Date"=[83, 97, 116, 44, 32, 49, 56, 32, 65, 112, 114, 32, 50, 48, 49, 53, 32, 48, 55, 58, 50, 50, 58, 49, 53, 32, 71, 77, 84]
+[2015-04-18][15:21:59][TRACE] raw header: "Connection"=[107, 101, 101, 112, 45, 97, 108, 105, 118, 101]
+[2015-04-18][15:21:59][TRACE] raw header: "X-Frame-Options"=[83, 65, 77, 69, 79, 82, 73, 71, 73, 78]
+[2015-04-18][15:21:59][TRACE] raw header: "X-Xss-Protection"=[49, 59, 32, 109, 111, 100, 101, 61, 98, 108, 111, 99, 107]
+[2015-04-18][15:21:59][TRACE] raw header: "X-Content-Type-Options"=[110, 111, 115, 110, 105, 102, 102]
+[2015-04-18][15:21:59][TRACE] raw header: "Content-Type"=[97, 112, 112, 108, 105, 99, 97, 116, 105, 111, 110, 47, 106, 115, 111, 110, 59, 32, 99, 104, 97, 114, 115, 101, 116, 61, 117, 116, 102, 45, 56]
+[2015-04-18][15:21:59][TRACE] raw header: "Etag"=[34, 99, 57, 51, 97, 55, 101, 101, 56, 52, 102, 49, 55, 99, 54, 52, 100, 56, 98, 100, 48, 56, 48, 52, 99, 97, 100, 99, 57, 54, 102, 57, 98, 34]
+[2015-04-18][15:21:59][TRACE] raw header: "Cache-Control"=[109, 97, 120, 45, 97, 103, 101, 61, 48, 44, 32, 112, 114, 105, 118, 97, 116, 101, 44, 32, 109, 117, 115, 116, 45, 114, 101, 118, 97, 108, 105, 100, 97, 116, 101]
+[2015-04-18][15:21:59][TRACE] raw header: "X-Request-Id"=[99, 97, 57, 99, 51, 50, 97, 52, 45, 49, 100, 100, 51, 45, 52, 49, 56, 48, 45, 98, 97, 48, 57, 45, 102, 50, 102, 100, 52, 55, 57, 57, 48, 49, 54, 98]
+[2015-04-18][15:21:59][TRACE] raw header: "X-Runtime"=[48, 46, 48, 52, 50, 50, 56, 55]
+[2015-04-18][15:21:59][TRACE] raw header: "Transfer-Encoding"=[99, 104, 117, 110, 107, 101, 100]
+[2015-04-18][15:21:59][TRACE] raw header: "Via"=[49, 46, 49, 32, 118, 101, 103, 117, 114]
+[2015-04-18][15:21:59][DEBUG] version=Http11, status=Ok
+[2015-04-18][15:21:59][DEBUG] headers=Headers { X-Frame-Options: SAMEORIGIN, Etag: "c93a7ee84f17c64d8bd0804cadc96f9b", Connection: keep-alive, Via: 1.1 vegur, Server: Cowboy, X-Xss-Protection: 1; mode=block, Transfer-Encoding: chunked, Content-Type: application/json; charset=utf-8, X-Runtime: 0.042287, X-Content-Type-Options: nosniff, Cache-Control: max-age=0, private, must-revalidate, Date: Sat, 18 Apr 2015 07:22:15 GMT, X-Request-Id: ca9c32a4-1dd3-4180-ba09-f2fd4799016b, }
+[2015-04-18][15:21:59][TRACE] chunk size=123
+[2015-04-18][15:21:59][TRACE] Chunked read, remaining=123
+[2015-04-18][15:21:59][TRACE] Chunked read, remaining=91
+[2015-04-18][15:21:59][TRACE] Chunked read, remaining=27
+[2015-04-18][15:21:59][TRACE] chunk size=0
+[2015-04-18][15:21:59][TRACE] Chunked read, remaining=0
+[2015-04-18][15:21:59][TRACE] end of chunked
+[2015-04-18][15:21:59][TRACE] inspect top iter: Some((0, 'a'))
+[2015-04-18][15:21:59][TRACE] inspect top iter: Some((1, 'p'))
+[2015-04-18][15:21:59][TRACE] inspect top iter: Some((2, 'p'))
+[2015-04-18][15:21:59][TRACE] inspect top iter: Some((3, 'l'))
+[2015-04-18][15:21:59][TRACE] inspect top iter: Some((4, 'i'))
+[2015-04-18][15:21:59][TRACE] inspect top iter: Some((5, 'c'))
+[2015-04-18][15:21:59][TRACE] inspect top iter: Some((6, 'a'))
+[2015-04-18][15:21:59][TRACE] inspect top iter: Some((7, 't'))
+[2015-04-18][15:21:59][TRACE] inspect top iter: Some((8, 'i'))
+[2015-04-18][15:21:59][TRACE] inspect top iter: Some((9, 'o'))
+[2015-04-18][15:21:59][TRACE] inspect top iter: Some((10, 'n'))
+[2015-04-18][15:21:59][TRACE] inspect top iter: Some((11, '/'))
+[2015-04-18][15:21:59][TRACE] inspect sub iter: Some((12, 'j'))
+[2015-04-18][15:21:59][TRACE] inspect sub iter: Some((13, 's'))
+[2015-04-18][15:21:59][TRACE] inspect sub iter: Some((14, 'o'))
+[2015-04-18][15:21:59][TRACE] inspect sub iter: Some((15, 'n'))
+[2015-04-18][15:21:59][TRACE] inspect sub iter: None
+[2015-04-18][15:21:59][TRACE] send Post Url { scheme: "https", scheme_data: Relative(RelativeSchemeData { username: "", password: None, host: Domain("strikingly-hangman.herokuapp.com"), port: None, default_port: Some(443), path: ["game", "on"] }), query: None, fragment: None }
+[2015-04-18][15:21:59][TRACE] host="strikingly-hangman.herokuapp.com"
+[2015-04-18][15:21:59][TRACE] port=443
+[2015-04-18][15:21:59][DEBUG] https scheme
+[2015-04-18][15:22:00][DEBUG] request line: Post "/game/on" Http11
+[2015-04-18][15:22:00][DEBUG] headers=Headers { Host: strikingly-hangman.herokuapp.com, Content-Length: 81, Content-Type: application/json, }
+[2015-04-18][15:22:00][TRACE] slicing (0, 449, 4096)
+[2015-04-18][15:22:00][TRACE] raw header: "Server"=[67, 111, 119, 98, 111, 121]
+[2015-04-18][15:22:00][TRACE] raw header: "Date"=[83, 97, 116, 44, 32, 49, 56, 32, 65, 112, 114, 32, 50, 48, 49, 53, 32, 48, 55, 58, 50, 50, 58, 49, 54, 32, 71, 77, 84]
+[2015-04-18][15:22:00][TRACE] raw header: "Connection"=[107, 101, 101, 112, 45, 97, 108, 105, 118, 101]
+[2015-04-18][15:22:00][TRACE] raw header: "X-Frame-Options"=[83, 65, 77, 69, 79, 82, 73, 71, 73, 78]
+[2015-04-18][15:22:00][TRACE] raw header: "X-Xss-Protection"=[49, 59, 32, 109, 111, 100, 101, 61, 98, 108, 111, 99, 107]
+[2015-04-18][15:22:00][TRACE] raw header: "X-Content-Type-Options"=[110, 111, 115, 110, 105, 102, 102]
+[2015-04-18][15:22:00][TRACE] raw header: "Content-Type"=[97, 112, 112, 108, 105, 99, 97, 116, 105, 111, 110, 47, 106, 115, 111, 110, 59, 32, 99, 104, 97, 114, 115, 101, 116, 61, 117, 116, 102, 45, 56]
+[2015-04-18][15:22:00][TRACE] raw header: "Etag"=[34, 50, 55, 48, 97, 55, 101, 49, 48, 56, 101, 98, 100, 57, 102, 102, 55, 55, 102, 49, 48, 52, 50, 97, 52, 52, 101, 100, 48, 48, 100, 54, 102, 34]
+[2015-04-18][15:22:00][TRACE] raw header: "Cache-Control"=[109, 97, 120, 45, 97, 103, 101, 61, 48, 44, 32, 112, 114, 105, 118, 97, 116, 101, 44, 32, 109, 117, 115, 116, 45, 114, 101, 118, 97, 108, 105, 100, 97, 116, 101]
+[2015-04-18][15:22:00][TRACE] raw header: "X-Request-Id"=[51, 49, 53, 55, 55, 56, 101, 99, 45, 51, 102, 51, 56, 45, 52, 100, 57, 53, 45, 98, 50, 97, 99, 45, 99, 97, 48, 54, 99, 57, 101, 98, 48, 56, 100, 99]
+[2015-04-18][15:22:00][TRACE] raw header: "X-Runtime"=[48, 46, 48, 51, 51, 57, 51, 53]
+[2015-04-18][15:22:00][TRACE] raw header: "Transfer-Encoding"=[99, 104, 117, 110, 107, 101, 100]
+[2015-04-18][15:22:00][TRACE] raw header: "Via"=[49, 46, 49, 32, 118, 101, 103, 117, 114]
+[2015-04-18][15:22:00][DEBUG] version=Http11, status=Ok
+[2015-04-18][15:22:00][DEBUG] headers=Headers { Cache-Control: max-age=0, private, must-revalidate, Content-Type: application/json; charset=utf-8, Via: 1.1 vegur, Etag: "270a7e108ebd9ff77f1042a44ed00d6f", Connection: keep-alive, Server: Cowboy, X-Frame-Options: SAMEORIGIN, X-Xss-Protection: 1; mode=block, X-Runtime: 0.033935, X-Content-Type-Options: nosniff, Date: Sat, 18 Apr 2015 07:22:16 GMT, X-Request-Id: 315778ec-3f38-4d95-b2ac-ca06c9eb08dc, Transfer-Encoding: chunked, }
+[2015-04-18][15:22:00][TRACE] chunk size=123
+[2015-04-18][15:22:00][TRACE] Chunked read, remaining=123
+[2015-04-18][15:22:00][TRACE] Chunked read, remaining=91
+[2015-04-18][15:22:00][TRACE] Chunked read, remaining=27
+[2015-04-18][15:22:00][TRACE] chunk size=0
+[2015-04-18][15:22:00][TRACE] Chunked read, remaining=0
+[2015-04-18][15:22:00][TRACE] end of chunked
+[2015-04-18][15:22:00][TRACE] inspect top iter: Some((0, 'a'))
+[2015-04-18][15:22:00][TRACE] inspect top iter: Some((1, 'p'))
+[2015-04-18][15:22:00][TRACE] inspect top iter: Some((2, 'p'))
+[2015-04-18][15:22:00][TRACE] inspect top iter: Some((3, 'l'))
+[2015-04-18][15:22:00][TRACE] inspect top iter: Some((4, 'i'))
+[2015-04-18][15:22:00][TRACE] inspect top iter: Some((5, 'c'))
+[2015-04-18][15:22:00][TRACE] inspect top iter: Some((6, 'a'))
+[2015-04-18][15:22:00][TRACE] inspect top iter: Some((7, 't'))
+[2015-04-18][15:22:00][TRACE] inspect top iter: Some((8, 'i'))
+[2015-04-18][15:22:00][TRACE] inspect top iter: Some((9, 'o'))
+[2015-04-18][15:22:00][TRACE] inspect top iter: Some((10, 'n'))
+[2015-04-18][15:22:00][TRACE] inspect top iter: Some((11, '/'))
+[2015-04-18][15:22:00][TRACE] inspect sub iter: Some((12, 'j'))
+[2015-04-18][15:22:00][TRACE] inspect sub iter: Some((13, 's'))
+[2015-04-18][15:22:00][TRACE] inspect sub iter: Some((14, 'o'))
+[2015-04-18][15:22:00][TRACE] inspect sub iter: Some((15, 'n'))
+[2015-04-18][15:22:00][TRACE] inspect sub iter: None
+[2015-04-18][15:22:00][TRACE] send Post Url { scheme: "https", scheme_data: Relative(RelativeSchemeData { username: "", password: None, host: Domain("strikingly-hangman.herokuapp.com"), port: None, default_port: Some(443), path: ["game", "on"] }), query: None, fragment: None }
+[2015-04-18][15:22:00][TRACE] host="strikingly-hangman.herokuapp.com"
+[2015-04-18][15:22:00][TRACE] port=443
+[2015-04-18][15:22:00][DEBUG] https scheme
+[2015-04-18][15:22:02][DEBUG] request line: Post "/game/on" Http11
+[2015-04-18][15:22:02][DEBUG] headers=Headers { Content-Type: application/json, Host: strikingly-hangman.herokuapp.com, Content-Length: 81, }
+[2015-04-18][15:22:02][TRACE] slicing (0, 449, 4096)
+[2015-04-18][15:22:02][TRACE] raw header: "Server"=[67, 111, 119, 98, 111, 121]
+[2015-04-18][15:22:02][TRACE] raw header: "Date"=[83, 97, 116, 44, 32, 49, 56, 32, 65, 112, 114, 32, 50, 48, 49, 53, 32, 48, 55, 58, 50, 50, 58, 49, 56, 32, 71, 77, 84]
+[2015-04-18][15:22:02][TRACE] raw header: "Connection"=[107, 101, 101, 112, 45, 97, 108, 105, 118, 101]
+[2015-04-18][15:22:02][TRACE] raw header: "X-Frame-Options"=[83, 65, 77, 69, 79, 82, 73, 71, 73, 78]
+[2015-04-18][15:22:02][TRACE] raw header: "X-Xss-Protection"=[49, 59, 32, 109, 111, 100, 101, 61, 98, 108, 111, 99, 107]
+[2015-04-18][15:22:02][TRACE] raw header: "X-Content-Type-Options"=[110, 111, 115, 110, 105, 102, 102]
+[2015-04-18][15:22:02][TRACE] raw header: "Content-Type"=[97, 112, 112, 108, 105, 99, 97, 116, 105, 111, 110, 47, 106, 115, 111, 110, 59, 32, 99, 104, 97, 114, 115, 101, 116, 61, 117, 116, 102, 45, 56]
+[2015-04-18][15:22:02][TRACE] raw header: "Etag"=[34, 57, 53, 56, 49, 98, 56, 56, 98, 48, 49, 55, 56, 54, 50, 54, 49, 52, 48, 48, 101, 52, 48, 57, 48, 98, 48, 102, 57, 48, 98, 56, 99, 34]
+[2015-04-18][15:22:02][TRACE] raw header: "Cache-Control"=[109, 97, 120, 45, 97, 103, 101, 61, 48, 44, 32, 112, 114, 105, 118, 97, 116, 101, 44, 32, 109, 117, 115, 116, 45, 114, 101, 118, 97, 108, 105, 100, 97, 116, 101]
+[2015-04-18][15:22:02][TRACE] raw header: "X-Request-Id"=[51, 102, 57, 101, 100, 48, 57, 53, 45, 54, 99, 57, 99, 45, 52, 98, 53, 54, 45, 57, 102, 97, 52, 45, 101, 52, 52, 51, 50, 55, 99, 99, 49, 49, 50, 55]
+[2015-04-18][15:22:02][TRACE] raw header: "X-Runtime"=[48, 46, 48, 51, 48, 51, 52, 55]
+[2015-04-18][15:22:02][TRACE] raw header: "Transfer-Encoding"=[99, 104, 117, 110, 107, 101, 100]
+[2015-04-18][15:22:02][TRACE] raw header: "Via"=[49, 46, 49, 32, 118, 101, 103, 117, 114]
+[2015-04-18][15:22:02][DEBUG] version=Http11, status=Ok
+[2015-04-18][15:22:02][DEBUG] headers=Headers { X-Content-Type-Options: nosniff, Date: Sat, 18 Apr 2015 07:22:18 GMT, X-Xss-Protection: 1; mode=block, X-Request-Id: 3f9ed095-6c9c-4b56-9fa4-e44327cc1127, Etag: "9581b88b01786261400e4090b0f90b8c", X-Frame-Options: SAMEORIGIN, Cache-Control: max-age=0, private, must-revalidate, Via: 1.1 vegur, Content-Type: application/json; charset=utf-8, Server: Cowboy, Connection: keep-alive, X-Runtime: 0.030347, Transfer-Encoding: chunked, }
+[2015-04-18][15:22:02][TRACE] chunk size=123
+[2015-04-18][15:22:02][TRACE] Chunked read, remaining=123
+[2015-04-18][15:22:02][TRACE] Chunked read, remaining=91
+[2015-04-18][15:22:02][TRACE] Chunked read, remaining=27
+[2015-04-18][15:22:02][TRACE] chunk size=0
+[2015-04-18][15:22:02][TRACE] Chunked read, remaining=0
+[2015-04-18][15:22:02][TRACE] end of chunked
+[2015-04-18][15:22:02][TRACE] inspect top iter: Some((0, 'a'))
+[2015-04-18][15:22:02][TRACE] inspect top iter: Some((1, 'p'))
+[2015-04-18][15:22:02][TRACE] inspect top iter: Some((2, 'p'))
+[2015-04-18][15:22:02][TRACE] inspect top iter: Some((3, 'l'))
+[2015-04-18][15:22:02][TRACE] inspect top iter: Some((4, 'i'))
+[2015-04-18][15:22:02][TRACE] inspect top iter: Some((5, 'c'))
+[2015-04-18][15:22:02][TRACE] inspect top iter: Some((6, 'a'))
+[2015-04-18][15:22:02][TRACE] inspect top iter: Some((7, 't'))
+[2015-04-18][15:22:02][TRACE] inspect top iter: Some((8, 'i'))
+[2015-04-18][15:22:02][TRACE] inspect top iter: Some((9, 'o'))
+[2015-04-18][15:22:02][TRACE] inspect top iter: Some((10, 'n'))
+[2015-04-18][15:22:02][TRACE] inspect top iter: Some((11, '/'))
+[2015-04-18][15:22:02][TRACE] inspect sub iter: Some((12, 'j'))
+[2015-04-18][15:22:02][TRACE] inspect sub iter: Some((13, 's'))
+[2015-04-18][15:22:02][TRACE] inspect sub iter: Some((14, 'o'))
+[2015-04-18][15:22:02][TRACE] inspect sub iter: Some((15, 'n'))
+[2015-04-18][15:22:02][TRACE] inspect sub iter: None
+[2015-04-18][15:22:02][TRACE] send Post Url { scheme: "https", scheme_data: Relative(RelativeSchemeData { username: "", password: None, host: Domain("strikingly-hangman.herokuapp.com"), port: None, default_port: Some(443), path: ["game", "on"] }), query: None, fragment: None }
+[2015-04-18][15:22:02][TRACE] host="strikingly-hangman.herokuapp.com"
+[2015-04-18][15:22:02][TRACE] port=443
+[2015-04-18][15:22:02][DEBUG] https scheme
+[2015-04-18][15:22:04][DEBUG] request line: Post "/game/on" Http11
+[2015-04-18][15:22:04][DEBUG] headers=Headers { Content-Type: application/json, Content-Length: 81, Host: strikingly-hangman.herokuapp.com, }
+[2015-04-18][15:22:04][TRACE] slicing (0, 449, 4096)
+[2015-04-18][15:22:04][TRACE] raw header: "Server"=[67, 111, 119, 98, 111, 121]
+[2015-04-18][15:22:04][TRACE] raw header: "Date"=[83, 97, 116, 44, 32, 49, 56, 32, 65, 112, 114, 32, 50, 48, 49, 53, 32, 48, 55, 58, 50, 50, 58, 50, 48, 32, 71, 77, 84]
+[2015-04-18][15:22:04][TRACE] raw header: "Connection"=[107, 101, 101, 112, 45, 97, 108, 105, 118, 101]
+[2015-04-18][15:22:04][TRACE] raw header: "X-Frame-Options"=[83, 65, 77, 69, 79, 82, 73, 71, 73, 78]
+[2015-04-18][15:22:04][TRACE] raw header: "X-Xss-Protection"=[49, 59, 32, 109, 111, 100, 101, 61, 98, 108, 111, 99, 107]
+[2015-04-18][15:22:04][TRACE] raw header: "X-Content-Type-Options"=[110, 111, 115, 110, 105, 102, 102]
+[2015-04-18][15:22:04][TRACE] raw header: "Content-Type"=[97, 112, 112, 108, 105, 99, 97, 116, 105, 111, 110, 47, 106, 115, 111, 110, 59, 32, 99, 104, 97, 114, 115, 101, 116, 61, 117, 116, 102, 45, 56]
+[2015-04-18][15:22:04][TRACE] raw header: "Etag"=[34, 97, 51, 54, 52, 52, 99, 49, 49, 56, 102, 52, 50, 57, 48, 50, 49, 98, 100, 102, 51, 98, 97, 57, 49, 100, 50, 49, 53, 52, 53, 48, 98, 34]
+[2015-04-18][15:22:04][TRACE] raw header: "Cache-Control"=[109, 97, 120, 45, 97, 103, 101, 61, 48, 44, 32, 112, 114, 105, 118, 97, 116, 101, 44, 32, 109, 117, 115, 116, 45, 114, 101, 118, 97, 108, 105, 100, 97, 116, 101]
+[2015-04-18][15:22:04][TRACE] raw header: "X-Request-Id"=[98, 56, 49, 99, 51, 50, 52, 100, 45, 49, 97, 54, 53, 45, 52, 53, 56, 52, 45, 98, 52, 50, 101, 45, 51, 48, 101, 48, 101, 57, 49, 48, 99, 100, 100, 54]
+[2015-04-18][15:22:04][TRACE] raw header: "X-Runtime"=[48, 46, 48, 50, 56, 53, 48, 53]
+[2015-04-18][15:22:04][TRACE] raw header: "Transfer-Encoding"=[99, 104, 117, 110, 107, 101, 100]
+[2015-04-18][15:22:04][TRACE] raw header: "Via"=[49, 46, 49, 32, 118, 101, 103, 117, 114]
+[2015-04-18][15:22:04][DEBUG] version=Http11, status=Ok
+[2015-04-18][15:22:04][DEBUG] headers=Headers { Connection: keep-alive, Date: Sat, 18 Apr 2015 07:22:20 GMT, X-Runtime: 0.028505, Content-Type: application/json; charset=utf-8, Etag: "a3644c118f429021bdf3ba91d215450b", Cache-Control: max-age=0, private, must-revalidate, Server: Cowboy, X-Content-Type-Options: nosniff, X-Frame-Options: SAMEORIGIN, Transfer-Encoding: chunked, X-Xss-Protection: 1; mode=block, Via: 1.1 vegur, X-Request-Id: b81c324d-1a65-4584-b42e-30e0e910cdd6, }
+[2015-04-18][15:22:04][TRACE] chunk size=123
+[2015-04-18][15:22:04][TRACE] Chunked read, remaining=123
+[2015-04-18][15:22:04][TRACE] Chunked read, remaining=91
+[2015-04-18][15:22:04][TRACE] Chunked read, remaining=27
+[2015-04-18][15:22:04][TRACE] chunk size=0
+[2015-04-18][15:22:04][TRACE] Chunked read, remaining=0
+[2015-04-18][15:22:04][TRACE] end of chunked
+[2015-04-18][15:22:04][TRACE] inspect top iter: Some((0, 'a'))
+[2015-04-18][15:22:04][TRACE] inspect top iter: Some((1, 'p'))
+[2015-04-18][15:22:04][TRACE] inspect top iter: Some((2, 'p'))
+[2015-04-18][15:22:04][TRACE] inspect top iter: Some((3, 'l'))
+[2015-04-18][15:22:04][TRACE] inspect top iter: Some((4, 'i'))
+[2015-04-18][15:22:04][TRACE] inspect top iter: Some((5, 'c'))
+[2015-04-18][15:22:04][TRACE] inspect top iter: Some((6, 'a'))
+[2015-04-18][15:22:04][TRACE] inspect top iter: Some((7, 't'))
+[2015-04-18][15:22:04][TRACE] inspect top iter: Some((8, 'i'))
+[2015-04-18][15:22:04][TRACE] inspect top iter: Some((9, 'o'))
+[2015-04-18][15:22:04][TRACE] inspect top iter: Some((10, 'n'))
+[2015-04-18][15:22:04][TRACE] inspect top iter: Some((11, '/'))
+[2015-04-18][15:22:04][TRACE] inspect sub iter: Some((12, 'j'))
+[2015-04-18][15:22:04][TRACE] inspect sub iter: Some((13, 's'))
+[2015-04-18][15:22:04][TRACE] inspect sub iter: Some((14, 'o'))
+[2015-04-18][15:22:04][TRACE] inspect sub iter: Some((15, 'n'))
+[2015-04-18][15:22:04][TRACE] inspect sub iter: None
+[2015-04-18][15:22:04][TRACE] send Post Url { scheme: "https", scheme_data: Relative(RelativeSchemeData { username: "", password: None, host: Domain("strikingly-hangman.herokuapp.com"), port: None, default_port: Some(443), path: ["game", "on"] }), query: None, fragment: None }
+[2015-04-18][15:22:04][TRACE] host="strikingly-hangman.herokuapp.com"
+[2015-04-18][15:22:04][TRACE] port=443
+[2015-04-18][15:22:04][DEBUG] https scheme
+[2015-04-18][15:22:06][DEBUG] request line: Post "/game/on" Http11
+[2015-04-18][15:22:06][DEBUG] headers=Headers { Host: strikingly-hangman.herokuapp.com, Content-Type: application/json, Content-Length: 81, }
+[2015-04-18][15:22:06][TRACE] slicing (0, 449, 4096)
+[2015-04-18][15:22:06][TRACE] raw header: "Server"=[67, 111, 119, 98, 111, 121]
+[2015-04-18][15:22:06][TRACE] raw header: "Date"=[83, 97, 116, 44, 32, 49, 56, 32, 65, 112, 114, 32, 50, 48, 49, 53, 32, 48, 55, 58, 50, 50, 58, 50, 50, 32, 71, 77, 84]
+[2015-04-18][15:22:06][TRACE] raw header: "Connection"=[107, 101, 101, 112, 45, 97, 108, 105, 118, 101]
+[2015-04-18][15:22:06][TRACE] raw header: "X-Frame-Options"=[83, 65, 77, 69, 79, 82, 73, 71, 73, 78]
+[2015-04-18][15:22:06][TRACE] raw header: "X-Xss-Protection"=[49, 59, 32, 109, 111, 100, 101, 61, 98, 108, 111, 99, 107]
+[2015-04-18][15:22:06][TRACE] raw header: "X-Content-Type-Options"=[110, 111, 115, 110, 105, 102, 102]
+[2015-04-18][15:22:06][TRACE] raw header: "Content-Type"=[97, 112, 112, 108, 105, 99, 97, 116, 105, 111, 110, 47, 106, 115, 111, 110, 59, 32, 99, 104, 97, 114, 115, 101, 116, 61, 117, 116, 102, 45, 56]
+[2015-04-18][15:22:06][TRACE] raw header: "Etag"=[34, 57, 102, 99, 100, 98, 99, 50, 50, 53, 97, 50, 57, 56, 53, 49, 53, 52, 50, 102, 55, 57, 101, 50, 57, 98, 51, 100, 49, 51, 99, 53, 57, 34]
+[2015-04-18][15:22:06][TRACE] raw header: "Cache-Control"=[109, 97, 120, 45, 97, 103, 101, 61, 48, 44, 32, 112, 114, 105, 118, 97, 116, 101, 44, 32, 109, 117, 115, 116, 45, 114, 101, 118, 97, 108, 105, 100, 97, 116, 101]
+[2015-04-18][15:22:06][TRACE] raw header: "X-Request-Id"=[97, 48, 51, 54, 56, 48, 49, 97, 45, 50, 56, 55, 50, 45, 52, 98, 48, 51, 45, 56, 54, 100, 53, 45, 54, 51, 102, 101, 100, 98, 100, 101, 54, 57, 52, 54]
+[2015-04-18][15:22:06][TRACE] raw header: "X-Runtime"=[48, 46, 49, 52, 55, 56, 49, 48]
+[2015-04-18][15:22:06][TRACE] raw header: "Transfer-Encoding"=[99, 104, 117, 110, 107, 101, 100]
+[2015-04-18][15:22:06][TRACE] raw header: "Via"=[49, 46, 49, 32, 118, 101, 103, 117, 114]
+[2015-04-18][15:22:06][DEBUG] version=Http11, status=Ok
+[2015-04-18][15:22:06][DEBUG] headers=Headers { X-Content-Type-Options: nosniff, Transfer-Encoding: chunked, X-Request-Id: a036801a-2872-4b03-86d5-63fedbde6946, Cache-Control: max-age=0, private, must-revalidate, Date: Sat, 18 Apr 2015 07:22:22 GMT, X-Frame-Options: SAMEORIGIN, Content-Type: application/json; charset=utf-8, X-Runtime: 0.147810, Via: 1.1 vegur, Server: Cowboy, Connection: keep-alive, Etag: "9fcdbc225a29851542f79e29b3d13c59", X-Xss-Protection: 1; mode=block, }
+[2015-04-18][15:22:06][TRACE] chunk size=123
+[2015-04-18][15:22:06][TRACE] Chunked read, remaining=123
+[2015-04-18][15:22:06][TRACE] Chunked read, remaining=91
+[2015-04-18][15:22:06][TRACE] Chunked read, remaining=27
+[2015-04-18][15:22:06][TRACE] chunk size=0
+[2015-04-18][15:22:06][TRACE] Chunked read, remaining=0
+[2015-04-18][15:22:06][TRACE] end of chunked
+[2015-04-18][15:22:06][TRACE] inspect top iter: Some((0, 'a'))
+[2015-04-18][15:22:06][TRACE] inspect top iter: Some((1, 'p'))
+[2015-04-18][15:22:06][TRACE] inspect top iter: Some((2, 'p'))
+[2015-04-18][15:22:06][TRACE] inspect top iter: Some((3, 'l'))
+[2015-04-18][15:22:06][TRACE] inspect top iter: Some((4, 'i'))
+[2015-04-18][15:22:06][TRACE] inspect top iter: Some((5, 'c'))
+[2015-04-18][15:22:06][TRACE] inspect top iter: Some((6, 'a'))
+[2015-04-18][15:22:06][TRACE] inspect top iter: Some((7, 't'))
+[2015-04-18][15:22:06][TRACE] inspect top iter: Some((8, 'i'))
+[2015-04-18][15:22:06][TRACE] inspect top iter: Some((9, 'o'))
+[2015-04-18][15:22:06][TRACE] inspect top iter: Some((10, 'n'))
+[2015-04-18][15:22:06][TRACE] inspect top iter: Some((11, '/'))
+[2015-04-18][15:22:06][TRACE] inspect sub iter: Some((12, 'j'))
+[2015-04-18][15:22:06][TRACE] inspect sub iter: Some((13, 's'))
+[2015-04-18][15:22:06][TRACE] inspect sub iter: Some((14, 'o'))
+[2015-04-18][15:22:06][TRACE] inspect sub iter: Some((15, 'n'))
+[2015-04-18][15:22:06][TRACE] inspect sub iter: None
+[2015-04-18][15:22:06][TRACE] send Post Url { scheme: "https", scheme_data: Relative(RelativeSchemeData { username: "", password: None, host: Domain("strikingly-hangman.herokuapp.com"), port: None, default_port: Some(443), path: ["game", "on"] }), query: None, fragment: None }
+[2015-04-18][15:22:06][TRACE] host="strikingly-hangman.herokuapp.com"
+[2015-04-18][15:22:06][TRACE] port=443
+[2015-04-18][15:22:06][DEBUG] https scheme
+[2015-04-18][15:22:08][DEBUG] request line: Post "/game/on" Http11
+[2015-04-18][15:22:08][DEBUG] headers=Headers { Content-Length: 81, Host: strikingly-hangman.herokuapp.com, Content-Type: application/json, }
+[2015-04-18][15:22:08][TRACE] slicing (0, 449, 4096)
+[2015-04-18][15:22:08][TRACE] raw header: "Server"=[67, 111, 119, 98, 111, 121]
+[2015-04-18][15:22:08][TRACE] raw header: "Date"=[83, 97, 116, 44, 32, 49, 56, 32, 65, 112, 114, 32, 50, 48, 49, 53, 32, 48, 55, 58, 50, 50, 58, 50, 52, 32, 71, 77, 84]
+[2015-04-18][15:22:08][TRACE] raw header: "Connection"=[107, 101, 101, 112, 45, 97, 108, 105, 118, 101]
+[2015-04-18][15:22:08][TRACE] raw header: "X-Frame-Options"=[83, 65, 77, 69, 79, 82, 73, 71, 73, 78]
+[2015-04-18][15:22:08][TRACE] raw header: "X-Xss-Protection"=[49, 59, 32, 109, 111, 100, 101, 61, 98, 108, 111, 99, 107]
+[2015-04-18][15:22:08][TRACE] raw header: "X-Content-Type-Options"=[110, 111, 115, 110, 105, 102, 102]
+[2015-04-18][15:22:08][TRACE] raw header: "Content-Type"=[97, 112, 112, 108, 105, 99, 97, 116, 105, 111, 110, 47, 106, 115, 111, 110, 59, 32, 99, 104, 97, 114, 115, 101, 116, 61, 117, 116, 102, 45, 56]
+[2015-04-18][15:22:08][TRACE] raw header: "Etag"=[34, 53, 49, 98, 100, 53, 50, 57, 97, 98, 102, 52, 98, 50, 102, 97, 57, 56, 49, 56, 53, 52, 52, 54, 99, 48, 56, 56, 99, 56, 97, 102, 52, 34]
+[2015-04-18][15:22:08][TRACE] raw header: "Cache-Control"=[109, 97, 120, 45, 97, 103, 101, 61, 48, 44, 32, 112, 114, 105, 118, 97, 116, 101, 44, 32, 109, 117, 115, 116, 45, 114, 101, 118, 97, 108, 105, 100, 97, 116, 101]
+[2015-04-18][15:22:08][TRACE] raw header: "X-Request-Id"=[102, 51, 102, 101, 56, 100, 102, 99, 45, 98, 51, 52, 51, 45, 52, 98, 53, 101, 45, 98, 102, 56, 102, 45, 102, 101, 53, 55, 57, 99, 102, 53, 51, 99, 53, 102]
+[2015-04-18][15:22:08][TRACE] raw header: "X-Runtime"=[48, 46, 48, 50, 55, 50, 48, 56]
+[2015-04-18][15:22:08][TRACE] raw header: "Transfer-Encoding"=[99, 104, 117, 110, 107, 101, 100]
+[2015-04-18][15:22:08][TRACE] raw header: "Via"=[49, 46, 49, 32, 118, 101, 103, 117, 114]
+[2015-04-18][15:22:08][DEBUG] version=Http11, status=Ok
+[2015-04-18][15:22:08][DEBUG] headers=Headers { Content-Type: application/json; charset=utf-8, Etag: "51bd529abf4b2fa98185446c088c8af4", Transfer-Encoding: chunked, X-Content-Type-Options: nosniff, X-Request-Id: f3fe8dfc-b343-4b5e-bf8f-fe579cf53c5f, Via: 1.1 vegur, Date: Sat, 18 Apr 2015 07:22:24 GMT, X-Frame-Options: SAMEORIGIN, X-Runtime: 0.027208, Cache-Control: max-age=0, private, must-revalidate, Server: Cowboy, Connection: keep-alive, X-Xss-Protection: 1; mode=block, }
+[2015-04-18][15:22:08][TRACE] chunk size=123
+[2015-04-18][15:22:08][TRACE] Chunked read, remaining=123
+[2015-04-18][15:22:08][TRACE] Chunked read, remaining=91
+[2015-04-18][15:22:08][TRACE] Chunked read, remaining=27
+[2015-04-18][15:22:08][TRACE] chunk size=0
+[2015-04-18][15:22:08][TRACE] Chunked read, remaining=0
+[2015-04-18][15:22:08][TRACE] end of chunked
+[2015-04-18][15:22:08][TRACE] inspect top iter: Some((0, 'a'))
+[2015-04-18][15:22:08][TRACE] inspect top iter: Some((1, 'p'))
+[2015-04-18][15:22:08][TRACE] inspect top iter: Some((2, 'p'))
+[2015-04-18][15:22:08][TRACE] inspect top iter: Some((3, 'l'))
+[2015-04-18][15:22:08][TRACE] inspect top iter: Some((4, 'i'))
+[2015-04-18][15:22:08][TRACE] inspect top iter: Some((5, 'c'))
+[2015-04-18][15:22:08][TRACE] inspect top iter: Some((6, 'a'))
+[2015-04-18][15:22:08][TRACE] inspect top iter: Some((7, 't'))
+[2015-04-18][15:22:08][TRACE] inspect top iter: Some((8, 'i'))
+[2015-04-18][15:22:08][TRACE] inspect top iter: Some((9, 'o'))
+[2015-04-18][15:22:08][TRACE] inspect top iter: Some((10, 'n'))
+[2015-04-18][15:22:08][TRACE] inspect top iter: Some((11, '/'))
+[2015-04-18][15:22:08][TRACE] inspect sub iter: Some((12, 'j'))
+[2015-04-18][15:22:08][TRACE] inspect sub iter: Some((13, 's'))
+[2015-04-18][15:22:08][TRACE] inspect sub iter: Some((14, 'o'))
+[2015-04-18][15:22:08][TRACE] inspect sub iter: Some((15, 'n'))
+[2015-04-18][15:22:08][TRACE] inspect sub iter: None
+[2015-04-18][15:22:08][TRACE] send Post Url { scheme: "https", scheme_data: Relative(RelativeSchemeData { username: "", password: None, host: Domain("strikingly-hangman.herokuapp.com"), port: None, default_port: Some(443), path: ["game", "on"] }), query: None, fragment: None }
+[2015-04-18][15:22:08][TRACE] host="strikingly-hangman.herokuapp.com"
+[2015-04-18][15:22:08][TRACE] port=443
+[2015-04-18][15:22:08][DEBUG] https scheme
+[2015-04-18][15:22:09][DEBUG] request line: Post "/game/on" Http11
+[2015-04-18][15:22:09][DEBUG] headers=Headers { Content-Length: 81, Content-Type: application/json, Host: strikingly-hangman.herokuapp.com, }
+[2015-04-18][15:22:10][TRACE] slicing (0, 449, 4096)
+[2015-04-18][15:22:10][TRACE] raw header: "Server"=[67, 111, 119, 98, 111, 121]
+[2015-04-18][15:22:10][TRACE] raw header: "Date"=[83, 97, 116, 44, 32, 49, 56, 32, 65, 112, 114, 32, 50, 48, 49, 53, 32, 48, 55, 58, 50, 50, 58, 50, 53, 32, 71, 77, 84]
+[2015-04-18][15:22:10][TRACE] raw header: "Connection"=[107, 101, 101, 112, 45, 97, 108, 105, 118, 101]
+[2015-04-18][15:22:10][TRACE] raw header: "X-Frame-Options"=[83, 65, 77, 69, 79, 82, 73, 71, 73, 78]
+[2015-04-18][15:22:10][TRACE] raw header: "X-Xss-Protection"=[49, 59, 32, 109, 111, 100, 101, 61, 98, 108, 111, 99, 107]
+[2015-04-18][15:22:10][TRACE] raw header: "X-Content-Type-Options"=[110, 111, 115, 110, 105, 102, 102]
+[2015-04-18][15:22:10][TRACE] raw header: "Content-Type"=[97, 112, 112, 108, 105, 99, 97, 116, 105, 111, 110, 47, 106, 115, 111, 110, 59, 32, 99, 104, 97, 114, 115, 101, 116, 61, 117, 116, 102, 45, 56]
+[2015-04-18][15:22:10][TRACE] raw header: "Etag"=[34, 97, 98, 48, 100, 54, 50, 55, 57, 56, 48, 50, 51, 52, 102, 102, 100, 52, 50, 56, 102, 97, 55, 101, 57, 102, 52, 101, 54, 99, 54, 53, 51, 34]
+[2015-04-18][15:22:10][TRACE] raw header: "Cache-Control"=[109, 97, 120, 45, 97, 103, 101, 61, 48, 44, 32, 112, 114, 105, 118, 97, 116, 101, 44, 32, 109, 117, 115, 116, 45, 114, 101, 118, 97, 108, 105, 100, 97, 116, 101]
+[2015-04-18][15:22:10][TRACE] raw header: "X-Request-Id"=[57, 100, 48, 53, 102, 101, 100, 48, 45, 50, 57, 102, 97, 45, 52, 98, 52, 99, 45, 98, 97, 56, 98, 45, 98, 48, 97, 51, 100, 98, 55, 48, 51, 48, 51, 50]
+[2015-04-18][15:22:10][TRACE] raw header: "X-Runtime"=[48, 46, 48, 52, 49, 54, 49, 55]
+[2015-04-18][15:22:10][TRACE] raw header: "Transfer-Encoding"=[99, 104, 117, 110, 107, 101, 100]
+[2015-04-18][15:22:10][TRACE] raw header: "Via"=[49, 46, 49, 32, 118, 101, 103, 117, 114]
+[2015-04-18][15:22:10][DEBUG] version=Http11, status=Ok
+[2015-04-18][15:22:10][DEBUG] headers=Headers { Cache-Control: max-age=0, private, must-revalidate, X-Request-Id: 9d05fed0-29fa-4b4c-ba8b-b0a3db703032, Connection: keep-alive, Content-Type: application/json; charset=utf-8, X-Content-Type-Options: nosniff, X-Xss-Protection: 1; mode=block, Etag: "ab0d627980234ffd428fa7e9f4e6c653", X-Runtime: 0.041617, Date: Sat, 18 Apr 2015 07:22:25 GMT, Server: Cowboy, Transfer-Encoding: chunked, X-Frame-Options: SAMEORIGIN, Via: 1.1 vegur, }
+[2015-04-18][15:22:10][TRACE] chunk size=124
+[2015-04-18][15:22:10][TRACE] Chunked read, remaining=124
+[2015-04-18][15:22:10][TRACE] Chunked read, remaining=92
+[2015-04-18][15:22:10][TRACE] Chunked read, remaining=28
+[2015-04-18][15:22:10][TRACE] chunk size=0
+[2015-04-18][15:22:10][TRACE] Chunked read, remaining=0
+[2015-04-18][15:22:10][TRACE] end of chunked
+[2015-04-18][15:24:46][DEBUG] send the req: {"playerId":"doomsplayer@gmail.com","action":"startGame"}
+[2015-04-18][15:24:46][DEBUG] https scheme
+[2015-04-18][15:24:47][DEBUG] request line: Post "/game/on" Http11
+[2015-04-18][15:24:47][DEBUG] headers=Headers { Host: strikingly-hangman.herokuapp.com, Content-Type: application/json, Content-Length: 57, }
+[2015-04-18][15:24:48][DEBUG] version=Http11, status=Ok
+[2015-04-18][15:24:48][DEBUG] headers=Headers { Date: Sat, 18 Apr 2015 07:25:03 GMT, Server: Cowboy, X-Frame-Options: SAMEORIGIN, Content-Type: application/json; charset=utf-8, Etag: "2585c8ccd6bae653d15392f84ea4ccd3", Connection: keep-alive, Cache-Control: max-age=0, private, must-revalidate, X-Runtime: 0.031688, Transfer-Encoding: chunked, X-Xss-Protection: 1; mode=block, Via: 1.1 vegur, X-Content-Type-Options: nosniff, X-Request-Id: 8e1f1219-d708-4e29-b803-bdd901e7509b, }
+[2015-04-18][15:24:48][DEBUG] get the response: {"message":"THE GAME IS ON","sessionId":"cb0766a54a8fc92b14373cad24a0ea07","data":{"numberOfWordsToGuess":80,"numberOfGuessAllowedForEachWord":10}}
+[2015-04-18][15:24:48][DEBUG] send the req: {"sessionId":"cb0766a54a8fc92b14373cad24a0ea07","action":"nextWord"}
+[2015-04-18][15:24:48][DEBUG] https scheme
+[2015-04-18][15:24:49][DEBUG] request line: Post "/game/on" Http11
+[2015-04-18][15:24:49][DEBUG] headers=Headers { Content-Type: application/json, Host: strikingly-hangman.herokuapp.com, Content-Length: 68, }
+[2015-04-18][15:24:50][DEBUG] version=Http11, status=Ok
+[2015-04-18][15:24:50][DEBUG] headers=Headers { Content-Type: application/json; charset=utf-8, Cache-Control: max-age=0, private, must-revalidate, X-Content-Type-Options: nosniff, Date: Sat, 18 Apr 2015 07:25:06 GMT, X-Runtime: 0.075476, Connection: keep-alive, Server: Cowboy, X-Frame-Options: SAMEORIGIN, Etag: "915acdac070e5e7a1f433612ead52864", Via: 1.1 vegur, X-Xss-Protection: 1; mode=block, Transfer-Encoding: chunked, X-Request-Id: 5210fca7-6a6f-4cd5-824a-82bed0dd33b5, }
+[2015-04-18][15:24:50][DEBUG] get the response: {"sessionId":"cb0766a54a8fc92b14373cad24a0ea07","data":{"word":"****","totalWordCount":1,"wrongGuessCountOfCurrentWord":0}}
+[2015-04-18][15:24:50][DEBUG] send the req: {"sessionId":"cb0766a54a8fc92b14373cad24a0ea07","action":"guessWord","guess":"E"}
+[2015-04-18][15:24:50][DEBUG] https scheme
+[2015-04-18][15:24:51][DEBUG] request line: Post "/game/on" Http11
+[2015-04-18][15:24:51][DEBUG] headers=Headers { Content-Type: application/json, Content-Length: 81, Host: strikingly-hangman.herokuapp.com, }
+[2015-04-18][15:24:52][DEBUG] version=Http11, status=Ok
+[2015-04-18][15:24:52][DEBUG] headers=Headers { X-Xss-Protection: 1; mode=block, X-Frame-Options: SAMEORIGIN, Server: Cowboy, X-Request-Id: 2405b725-d1bf-448d-a14e-8a5becb48c52, X-Content-Type-Options: nosniff, Transfer-Encoding: chunked, Content-Type: application/json; charset=utf-8, Connection: keep-alive, Via: 1.1 vegur, X-Runtime: 0.033940, Date: Sat, 18 Apr 2015 07:25:08 GMT, Etag: "224a483ca646d6d4a27180026a148512", Cache-Control: max-age=0, private, must-revalidate, }
+[2015-04-18][15:24:52][DEBUG] get the response: {"sessionId":"cb0766a54a8fc92b14373cad24a0ea07","data":{"word":"****","totalWordCount":1,"wrongGuessCountOfCurrentWord":1}}
+[2015-04-18][15:24:52][DEBUG] send the req: {"sessionId":"cb0766a54a8fc92b14373cad24a0ea07","action":"guessWord","guess":"E"}
+[2015-04-18][15:24:52][DEBUG] https scheme
+[2015-04-18][15:24:53][DEBUG] request line: Post "/game/on" Http11
+[2015-04-18][15:24:53][DEBUG] headers=Headers { Content-Type: application/json, Host: strikingly-hangman.herokuapp.com, Content-Length: 81, }
+[2015-04-18][15:24:54][DEBUG] version=Http11, status=Ok
+[2015-04-18][15:24:54][DEBUG] headers=Headers { Transfer-Encoding: chunked, X-Xss-Protection: 1; mode=block, X-Frame-Options: SAMEORIGIN, Cache-Control: max-age=0, private, must-revalidate, Content-Type: application/json; charset=utf-8, Date: Sat, 18 Apr 2015 07:25:09 GMT, X-Content-Type-Options: nosniff, Server: Cowboy, X-Runtime: 0.030934, Via: 1.1 vegur, Connection: keep-alive, Etag: "82bd5934028901b788f0bdb2a158d694", X-Request-Id: 82a93d74-0c65-4955-9883-4303d3936d26, }
+[2015-04-18][15:24:54][DEBUG] get the response: {"sessionId":"cb0766a54a8fc92b14373cad24a0ea07","data":{"word":"****","totalWordCount":1,"wrongGuessCountOfCurrentWord":2}}
+[2015-04-18][15:24:54][DEBUG] send the req: {"sessionId":"cb0766a54a8fc92b14373cad24a0ea07","action":"guessWord","guess":"E"}
+[2015-04-18][15:24:54][DEBUG] https scheme
+[2015-04-18][15:24:55][DEBUG] request line: Post "/game/on" Http11
+[2015-04-18][15:24:55][DEBUG] headers=Headers { Content-Type: application/json, Content-Length: 81, Host: strikingly-hangman.herokuapp.com, }
+[2015-04-18][15:24:55][DEBUG] version=Http11, status=Ok
+[2015-04-18][15:24:55][DEBUG] headers=Headers { Cache-Control: max-age=0, private, must-revalidate, X-Content-Type-Options: nosniff, X-Frame-Options: SAMEORIGIN, Connection: keep-alive, Via: 1.1 vegur, Content-Type: application/json; charset=utf-8, X-Xss-Protection: 1; mode=block, X-Runtime: 0.030313, X-Request-Id: 6ea9b709-ab31-4d97-92db-2dbba09962a0, Transfer-Encoding: chunked, Etag: "2c4f2bd65d4435284319961e0d55730b", Server: Cowboy, Date: Sat, 18 Apr 2015 07:25:11 GMT, }
+[2015-04-18][15:24:55][DEBUG] get the response: {"sessionId":"cb0766a54a8fc92b14373cad24a0ea07","data":{"word":"****","totalWordCount":1,"wrongGuessCountOfCurrentWord":3}}
+[2015-04-18][15:24:55][DEBUG] send the req: {"sessionId":"cb0766a54a8fc92b14373cad24a0ea07","action":"guessWord","guess":"E"}
+[2015-04-18][15:24:55][DEBUG] https scheme
+[2015-04-18][15:24:57][DEBUG] request line: Post "/game/on" Http11
+[2015-04-18][15:24:57][DEBUG] headers=Headers { Content-Length: 81, Host: strikingly-hangman.herokuapp.com, Content-Type: application/json, }
+[2015-04-18][15:24:57][DEBUG] version=Http11, status=Ok
+[2015-04-18][15:24:57][DEBUG] headers=Headers { X-Request-Id: 83a428c0-cd56-450c-a198-f75557703253, Connection: keep-alive, X-Content-Type-Options: nosniff, Transfer-Encoding: chunked, X-Runtime: 0.027486, X-Xss-Protection: 1; mode=block, Etag: "84253404bca48088095b4e1d47f2ab35", Cache-Control: max-age=0, private, must-revalidate, Content-Type: application/json; charset=utf-8, X-Frame-Options: SAMEORIGIN, Server: Cowboy, Via: 1.1 vegur, Date: Sat, 18 Apr 2015 07:25:13 GMT, }
+[2015-04-18][15:24:57][DEBUG] get the response: {"sessionId":"cb0766a54a8fc92b14373cad24a0ea07","data":{"word":"****","totalWordCount":1,"wrongGuessCountOfCurrentWord":4}}
+[2015-04-18][15:24:57][DEBUG] send the req: {"sessionId":"cb0766a54a8fc92b14373cad24a0ea07","action":"guessWord","guess":"E"}
+[2015-04-18][15:24:57][DEBUG] https scheme
+[2015-04-18][15:24:58][DEBUG] request line: Post "/game/on" Http11
+[2015-04-18][15:24:58][DEBUG] headers=Headers { Content-Length: 81, Host: strikingly-hangman.herokuapp.com, Content-Type: application/json, }
+[2015-04-18][15:24:59][DEBUG] version=Http11, status=Ok
+[2015-04-18][15:24:59][DEBUG] headers=Headers { Server: Cowboy, Transfer-Encoding: chunked, Date: Sat, 18 Apr 2015 07:25:15 GMT, X-Xss-Protection: 1; mode=block, Cache-Control: max-age=0, private, must-revalidate, Content-Type: application/json; charset=utf-8, Via: 1.1 vegur, Etag: "0b404ededf5f37bc98b79af8b2f6fc45", X-Request-Id: df20d8ca-e05d-4ecc-90c4-f742a58a3b81, X-Runtime: 0.039206, X-Content-Type-Options: nosniff, Connection: keep-alive, X-Frame-Options: SAMEORIGIN, }
+[2015-04-18][15:24:59][DEBUG] get the response: {"sessionId":"cb0766a54a8fc92b14373cad24a0ea07","data":{"word":"****","totalWordCount":1,"wrongGuessCountOfCurrentWord":5}}
+[2015-04-18][15:24:59][DEBUG] send the req: {"sessionId":"cb0766a54a8fc92b14373cad24a0ea07","action":"guessWord","guess":"E"}
+[2015-04-18][15:24:59][DEBUG] https scheme
+[2015-04-18][15:25:00][DEBUG] request line: Post "/game/on" Http11
+[2015-04-18][15:25:00][DEBUG] headers=Headers { Content-Length: 81, Host: strikingly-hangman.herokuapp.com, Content-Type: application/json, }
+[2015-04-18][15:25:01][DEBUG] version=Http11, status=Ok
+[2015-04-18][15:25:01][DEBUG] headers=Headers { X-Content-Type-Options: nosniff, X-Runtime: 0.040598, Transfer-Encoding: chunked, Date: Sat, 18 Apr 2015 07:25:16 GMT, X-Frame-Options: SAMEORIGIN, Connection: keep-alive, Server: Cowboy, Etag: "72dbb38fe8d7ad53df9d4ad2282e91a7", Cache-Control: max-age=0, private, must-revalidate, Via: 1.1 vegur, X-Request-Id: 335844e9-054b-42b8-a277-d5346814c00a, Content-Type: application/json; charset=utf-8, X-Xss-Protection: 1; mode=block, }
+[2015-04-18][15:25:01][DEBUG] get the response: {"sessionId":"cb0766a54a8fc92b14373cad24a0ea07","data":{"word":"****","totalWordCount":1,"wrongGuessCountOfCurrentWord":6}}
+[2015-04-18][15:25:01][DEBUG] send the req: {"sessionId":"cb0766a54a8fc92b14373cad24a0ea07","action":"guessWord","guess":"E"}
+[2015-04-18][15:25:01][DEBUG] https scheme
+[2015-04-18][15:25:02][DEBUG] request line: Post "/game/on" Http11
+[2015-04-18][15:25:02][DEBUG] headers=Headers { Content-Type: application/json, Host: strikingly-hangman.herokuapp.com, Content-Length: 81, }
+[2015-04-18][15:25:02][DEBUG] version=Http11, status=Ok
+[2015-04-18][15:25:02][DEBUG] headers=Headers { Via: 1.1 vegur, X-Content-Type-Options: nosniff, Date: Sat, 18 Apr 2015 07:25:18 GMT, Connection: keep-alive, Content-Type: application/json; charset=utf-8, Etag: "cf6522cfb95062c5170dcc39674484cf", X-Xss-Protection: 1; mode=block, Server: Cowboy, X-Request-Id: fd66e84c-8f17-4964-8f2f-6d4673c64304, Cache-Control: max-age=0, private, must-revalidate, X-Frame-Options: SAMEORIGIN, Transfer-Encoding: chunked, X-Runtime: 0.032564, }
+[2015-04-18][15:25:02][DEBUG] get the response: {"sessionId":"cb0766a54a8fc92b14373cad24a0ea07","data":{"word":"****","totalWordCount":1,"wrongGuessCountOfCurrentWord":7}}
+[2015-04-18][15:25:02][DEBUG] send the req: {"sessionId":"cb0766a54a8fc92b14373cad24a0ea07","action":"guessWord","guess":"E"}
+[2015-04-18][15:25:02][DEBUG] https scheme
+[2015-04-18][15:25:04][DEBUG] request line: Post "/game/on" Http11
+[2015-04-18][15:25:04][DEBUG] headers=Headers { Content-Type: application/json, Host: strikingly-hangman.herokuapp.com, Content-Length: 81, }
+[2015-04-18][15:25:05][DEBUG] version=Http11, status=Ok
+[2015-04-18][15:25:05][DEBUG] headers=Headers { X-Content-Type-Options: nosniff, Content-Type: application/json; charset=utf-8, Date: Sat, 18 Apr 2015 07:25:21 GMT, Cache-Control: max-age=0, private, must-revalidate, X-Request-Id: ae65a77d-8712-4753-b68a-27b9a288786e, X-Runtime: 0.026531, Via: 1.1 vegur, X-Frame-Options: SAMEORIGIN, Server: Cowboy, Transfer-Encoding: chunked, X-Xss-Protection: 1; mode=block, Connection: keep-alive, Etag: "ac7b822092c93b2e0c3c2c792f89ced4", }
+[2015-04-18][15:25:05][DEBUG] get the response: {"sessionId":"cb0766a54a8fc92b14373cad24a0ea07","data":{"word":"****","totalWordCount":1,"wrongGuessCountOfCurrentWord":8}}
+[2015-04-18][15:25:05][DEBUG] send the req: {"sessionId":"cb0766a54a8fc92b14373cad24a0ea07","action":"guessWord","guess":"E"}
+[2015-04-18][15:25:05][DEBUG] https scheme
+[2015-04-18][15:25:06][DEBUG] request line: Post "/game/on" Http11
+[2015-04-18][15:25:06][DEBUG] headers=Headers { Host: strikingly-hangman.herokuapp.com, Content-Length: 81, Content-Type: application/json, }
+[2015-04-18][15:25:06][DEBUG] version=Http11, status=Ok
+[2015-04-18][15:25:06][DEBUG] headers=Headers { Date: Sat, 18 Apr 2015 07:25:22 GMT, X-Request-Id: ced4192d-275a-4f17-9c62-912d676da96d, Etag: "338869cb4a567e29afea1de5035a68e2", X-Xss-Protection: 1; mode=block, Via: 1.1 vegur, X-Content-Type-Options: nosniff, Cache-Control: max-age=0, private, must-revalidate, X-Frame-Options: SAMEORIGIN, Server: Cowboy, Content-Type: application/json; charset=utf-8, X-Runtime: 0.028843, Connection: keep-alive, Transfer-Encoding: chunked, }
+[2015-04-18][15:25:06][DEBUG] get the response: {"sessionId":"cb0766a54a8fc92b14373cad24a0ea07","data":{"word":"****","totalWordCount":1,"wrongGuessCountOfCurrentWord":9}}
+[2015-04-18][15:25:06][DEBUG] send the req: {"sessionId":"cb0766a54a8fc92b14373cad24a0ea07","action":"guessWord","guess":"E"}
+[2015-04-18][15:25:06][DEBUG] https scheme
+[2015-04-18][15:25:07][DEBUG] request line: Post "/game/on" Http11
+[2015-04-18][15:25:07][DEBUG] headers=Headers { Host: strikingly-hangman.herokuapp.com, Content-Type: application/json, Content-Length: 81, }
+[2015-04-18][15:25:08][DEBUG] version=Http11, status=Ok
+[2015-04-18][15:25:08][DEBUG] headers=Headers { Cache-Control: max-age=0, private, must-revalidate, X-Runtime: 0.039474, Connection: keep-alive, Date: Sat, 18 Apr 2015 07:25:23 GMT, Etag: "7f16d4add42fed89ae7bac1bc43d5e32", Server: Cowboy, X-Content-Type-Options: nosniff, Via: 1.1 vegur, X-Request-Id: 3418ea1d-c92c-4b42-a8ac-8ec7596b8376, X-Frame-Options: SAMEORIGIN, X-Xss-Protection: 1; mode=block, Content-Type: application/json; charset=utf-8, Transfer-Encoding: chunked, }
+[2015-04-18][15:25:08][DEBUG] get the response: {"sessionId":"cb0766a54a8fc92b14373cad24a0ea07","data":{"word":"****","totalWordCount":1,"wrongGuessCountOfCurrentWord":10}}
